@@ -1,0 +1,11 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Browser", "icon": "🌐", "action": { "type": "open_url", "url": "https://www.google.com" } },
+    { "id": "b2", "title": "Terminal", "icon": "⌨️", "action": { "type": "shell", "cmd": "xfce4-terminal" } },
+    { "id": "b3", "title": "Mute", "icon": "🔇", "action": { "type": "key", "keys": ["CTRL", "M"] } },
+    { "id": "b4", "title": "Lights", "icon": "💡", "action": { "type": "ws", "topic": "lights/toggle" } },
+    { "id": "b5", "title": "Config", "icon": "⚙️", "action": { "type": "nav", "route": "/editor" } }
+  ]
+}

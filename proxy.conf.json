@@ -1,0 +1,13 @@
+{
+  "/api": {
+    "target": "http://172.16.173.14:8000",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/ws": {
+    "target": "ws://172.16.173.14:8000",
+    "ws": true,
+    "secure": false,
+    "changeOrigin": true
+  }
+}
