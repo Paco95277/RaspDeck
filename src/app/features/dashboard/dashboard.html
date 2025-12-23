@@ -1,8 +1,8 @@
 @if (layout()) {
 <div class="page">
     <div class="grid"
-         [style.gridTemplateColumns]="'repeat(' + layout()!.cols + ', 1fr)'"
-         [style.gridTemplateRows]="'repeat(' + layout()!.rows + ', 1fr)'">
+        [style.gridTemplateColumns]="'repeat(' + layout()!.cols + ', 1fr)'"
+        [style.gridTemplateRows]="'repeat(' + layout()!.rows + ', 1fr)'">
         @for (b of tiles(); track b.id) {
             <button class="tile" (click)="onPress(b)" [disabled]="b.action.type === 'none'">
                 <div class="icon">{{ b.icon ?? '⬛' }}</div>

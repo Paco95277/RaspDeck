@@ -10,7 +10,7 @@ export type ActionDef =
 export interface ButtonDef {
   id: string;
   title: string;
-  icon?: string; // Now use emoji, later can set it to assets/icons/xxx.svg
+  icon?: string;
   action: ActionDef;
 }
 

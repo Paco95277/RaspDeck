@@ -1,0 +1,9 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "for loop", "icon": "📝", "action": { "type": "insert", "text": "for i in range(10):\n    print(i)\n" } },
+    { "id": "b2", "title": "if loop", "icon": "📝", "action": {  } },
+    { "id": "b3", "title": "switch case", "icon": "📝", "action": {  } }
+  ]
+}

@@ -2,10 +2,16 @@
   "rows": 3,
   "cols": 5,
   "buttons": [
-    { "id": "b1", "title": "Browser", "icon": "🌐", "action": { "type": "open_url", "url": "https://www.google.com" } },
-    { "id": "b2", "title": "Terminal", "icon": "⌨️", "action": { "type": "shell", "cmd": "xfce4-terminal" } },
-    { "id": "b3", "title": "Mute", "icon": "🔇", "action": { "type": "key", "keys": ["CTRL", "M"] } },
-    { "id": "b4", "title": "Lights", "icon": "💡", "action": { "type": "ws", "topic": "lights/toggle" } },
-    { "id": "b5", "title": "Config", "icon": "⚙️", "action": { "type": "nav", "route": "/editor" } }
+    { "id": "b1", "title": "Terminal", "icon": "⌨️", "action": { "type": "shell", "cmd": "xfce4-terminal" } },
+    { "id": "b2", "title": "FastAPI", "icon": "🚀", "action": { "type": "nav", "route": "/cheatsheet/fastapi" } },
+    { "id": "b3", "title": "Angular", "icon": "🅰️", "action": { "type": "nav", "route": "/cheatsheet/angular" } },
+    { "id": "b4", "title": "Linux", "icon": "🐧", "action": { "type": "nav", "route": "/cheatsheet/linux" } },
+    { "id": "b5", "title": "Windows", "icon": "🪟", "action": { "type": "nav", "route": "/cheatsheet/windows" } },
+    { "id": "b6", "title": "Python", "icon": "🐍", "action": { "type": "nav", "route": "/cheatsheet/python" } },
+    { "id": "b7", "title": "TypeScript", "icon": "🔷", "action": { "type": "nav", "route": "/cheatsheet/typescript" } },
+    { "id": "b8", "title": "VBA", "icon": "📊", "action": { "type": "nav", "route": "/cheatsheet/vba" } },
+    { "id": "b9", "title": "JSON", "icon": "{ }", "action": { "type": "nav", "route": "/cheatsheet/json" } },
+    { "id": "b10", "title": "HTML", "icon": "🌐", "action": { "type": "nav", "route": "/cheatsheet/html" } },
+    { "id": "b11", "title": "C/C++", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/cpp" } }
   ]
 }

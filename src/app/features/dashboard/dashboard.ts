@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LayoutService } from '../../core/services/layout';
 import { LayoutDef, ButtonDef } from '../../models/model_1';
 import {ActionRunnerService} from '../../core/services/action-runner';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -12,10 +13,9 @@ import {ActionRunnerService} from '../../core/services/action-runner';
   styleUrl: './dashboard.scss',
 })
 export class DashboardPage implements OnInit {
-  private layoutSvc = inject(LayoutService);
+  private layoutSrv = inject(LayoutService);
   private runner = inject(ActionRunnerService);
   layout = signal<LayoutDef | null>(null);
-
   tiles = computed<ButtonDef[]>(() => {
     const l = this.layout();
     if (!l) return [];
@@ -23,15 +23,16 @@ export class DashboardPage implements OnInit {
   });
 
   async ngOnInit() {
-    const l = await this.layoutSvc.loadDefaultLayout();
+    const l = await this.layoutSrv.loadDefaultLayout();
     this.layout.set(l);
   }
 
   async onPress(b: ButtonDef) {
-    console.log('[PRESS]', b);
-    await this.runner.run(b.action);
+    console.log('[PRESS]', b.title);
+    await this.runner.run(b); 
   }
-  private normalizeTiles(layout: LayoutDef): ButtonDef[] {
+  
+  normalizeTiles(layout: LayoutDef): ButtonDef[] {
     const total = layout.rows * layout.cols;
     const out: ButtonDef[] = [];
     for (let i = 0; i < total; i++) {

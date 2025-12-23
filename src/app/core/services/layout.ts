@@ -10,4 +10,8 @@ export class LayoutService {
   loadDefaultLayout(): Promise<LayoutDef> {
     return firstValueFrom(this.http.get<LayoutDef>('assets/default-layout.json'));
   }
+
+  loadCheatSheet(sheet: string) :Promise<LayoutDef> {
+    return firstValueFrom(this.http.get<LayoutDef>(`assets/cheatsheets/${sheet.toLocaleLowerCase()}.json`));
+  } 
 }
