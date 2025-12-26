@@ -2,8 +2,9 @@
   "rows": 3,
   "cols": 5,
   "buttons": [
-    { "id": "b1", "title": "for loop", "icon": "📝", "action": { "type": "insert", "text": "for i in range(10):\n    print(i)\n" } },
-    { "id": "b2", "title": "if loop", "icon": "📝", "action": {  } },
-    { "id": "b3", "title": "switch case", "icon": "📝", "action": {  } }
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": ""  } },
+    { "id": "b2", "title": "for loop", "icon": "📝", "action": { "type": "insert", "text": "for i in range(10):\n    print(i)\n" } },
+    { "id": "b3", "title": "if loop", "icon": "📝", "action": {"type": "insert", "text": "this is if loop"} },
+    { "id": "b4", "title": "switch case", "icon": "📝", "action": {"type": "insert", "text": "this is switch case" } }
   ]
 }

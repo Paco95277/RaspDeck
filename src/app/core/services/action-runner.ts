@@ -1,6 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { Router } from '@angular/router';
-import { ActionDef, ButtonDef } from '../../models/model_1';
+import { ActionDef, ButtonDef } from '../../models/model-define';
 
 @Injectable({ providedIn: 'root' })
 export class ActionRunnerService {
@@ -17,16 +17,13 @@ export class ActionRunnerService {
         // console.log('route=', button.action.route);
         return;
       }
-      case 'none': {
+      case 'insert': {
+        console.log('Inserting...');
         return;
       }
-      case 'ws':
-      case 'http':
-      case 'shell':
-      case 'key': {
-        // console.log('[ActionRunner] not implemented yet:', action);
-        return;
-      }
+      // case 'ws':
+      // case 'http':
+      // case 'shell':
 
       default: {
         // TS 理论上不会进来，但加一层保护

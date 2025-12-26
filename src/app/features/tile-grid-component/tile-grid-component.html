@@ -1,0 +1,17 @@
+@if (layoutSrv.layoutSwitch()) {
+<div class="page">
+    <div class="grid"
+        [style.gridTemplateColumns]="'repeat(' + layoutSrv.layoutSwitch()!.cols + ', 1fr)'"
+        [style.gridTemplateRows]="'repeat(' + layoutSrv.layoutSwitch()!.rows + ', 1fr)'">
+        @for (b of tiles(); track b.id) {
+            <button class="tile" (click)="pressed.emit(b)" [disabled]="b.action.type === 'none'">
+                <div class="icon">{{ b.icon ?? '⬛' }}</div>
+                <div class="title">{{ b.title }}</div>
+                <div class="sub">{{ b.action.type }}</div>
+            </button>
+        }
+    </div>
+</div>
+} @else {
+    <div class="loading">Loading layout…</div>
+}

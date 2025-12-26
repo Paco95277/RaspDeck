@@ -2,8 +2,9 @@
   "rows": 3,
   "cols": 5,
   "buttons": [
-    { "id": "b1", "title": "interface", "icon": "📝", "action": {  } },
-    { "id": "b2", "title": "type", "icon": "📝", "action": {  } },
-    { "id": "b3", "title": "switch case", "icon": "📝", "action": {  } }
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": ""  } },
+    { "id": "b2", "title": "interface", "icon": "📝", "action": { "type": "insert", "text": "this is interface" } },
+    { "id": "b3", "title": "record", "icon": "📝", "action": {"type": "insert", "text": "this is record"} },
+    { "id": "b4", "title": "type", "icon": "📝", "action": {"type": "insert", "text": "this is type" } }
   ]
 }

@@ -1,17 +1,1 @@
-@if (layout()) {
-<div class="page">
-    <div class="grid"
-        [style.gridTemplateColumns]="'repeat(' + layout()!.cols + ', 1fr)'"
-        [style.gridTemplateRows]="'repeat(' + layout()!.rows + ', 1fr)'">
-        @for (b of tiles(); track b.id) {
-            <button class="tile" (click)="onPress(b)" [disabled]="b.action.type === 'none'">
-                <div class="icon">{{ b.icon ?? '⬛' }}</div>
-                <div class="title">{{ b.title }}</div>
-                <div class="sub">{{ b.action.type }}</div>
-            </button>
-        }
-    </div>
-</div>
-} @else {
-    <div class="loading">Loading layout…</div>
-}
+<app-tile-grid-component (pressed)="onPress($event)"></app-tile-grid-component>
