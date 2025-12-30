@@ -1,0 +1,13 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python"  } },
+	  { "id": "b2", "title": "Get Type", "icon": "📝", "action": { "type": "insert", "text": "type(var)" } },
+    { "id": "b3", "title": "Single Double Quotes", "icon": "📝", "action": { "type": "insert", "text": "# Single quotes are the same as double in Python." } },
+    { "id": "b4", "title": "Assign Multiple Values", "icon": "📝", "action": { "type": "insert", "text": "x, y, z = 'Orange', 'Banana', 'Cherry'\n x = y = z = 'Orange'" } },
+    { "id": "b5", "title": "Keyword Global", "icon": "📝", "action": { "type": "insert", "text": "def myfunc():\n\tglobal x # The variable x can now be used outside the function" } },
+    { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } }
+  ]
+}

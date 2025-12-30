@@ -1,0 +1,20 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python"  } },
+	  { "id": "b2", "title": "Define/Clear a List", "icon": "📝", "action": { "type": "insert", "text": "mylist = ['apple', 'banana', 'cherry']\nmylist.clear() # Clear the content of the list" } },
+    { "id": "b3", "title": "Access List Items", "icon": "📝", "action": { "type": "insert", "text": "mylist = ['apple', 'banana', 'cherry', 'kiwi', 'melon']\nmylist[0] # First item\nmylist[-1] # Last item\nmylist[2:4] # From third to fourth item" } },
+    { "id": "b4", "title": "Length and Type of a List", "icon": "📝", "action": { "type": "insert", "text": "mylist = ['apple', 'banana', 'cherry']\nprint(len(mylist))\nprint(type(mylist))" } },
+    { "id": "b5", "title": "Check If Item", "icon": "📝", "action": { "type": "insert", "text": "mylist = ['apple', 'banana', 'cherry']\nif 'apple' in mylist:\n\tprint('Apple is in mylist')" } },
+    { "id": "b6", "title": "Append/Insert Item", "icon": "📝", "action": { "type": "insert", "text": "mylist = ['apple', 'banana', 'cherry']\nmylist.append('orange') # Add an item to the end of the list\nmylist.insert(<num>, 'orange') # Insert an item at <num> index" } },
+    { "id": "b7", "title": "Remove/Pop Specified Item", "icon": "📝", "action": { "type": "insert", "text": "mylist = ['apple', 'banana', 'cherry', 'banana']\nmylist.remove('banana') # Remove the first 'banana'\nmylist.pop(<num>) # Remove the item at <num> index. If <num>=0, remove the last item" } },
+    { "id": "b8", "title": "Loop a List", "icon": "📝", "action": { "type": "insert", "text": "mylist = ['apple', 'banana', 'cherry']\nfor x in mylist:\n\tprint(x)\nfor i in range(len(mylist)):\n\tprint(mylist[i])" } },
+    { "id": "b9", "title": "Sort a List", "icon": "📝", "action": { "type": "insert", "text": "mylist = [100, 50, 65, 82, 23]\nmylist.sort() # Sort the list ascending\nmylist.sort(reverse = True) # Sort the list descending" } },
+    { "id": "b10", "title": "Copy a List", "icon": "📝", "action": { "type": "insert", "text": "mylist1 = ['apple', 'banana', 'cherry']\nmylist2 = mylist1 # mylist2 is a reference to mylist1, changes made in mylist1 will auto. be made in mylist2\nmylist2 = mylist1.copy() # The both lists are independent" } },
+    { "id": "b11", "title": "Join Lists", "icon": "📝", "action": { "type": "insert", "text": "mylist1 = ['apple', 'banana', 'cherry']\nmylist2 = [1, 2, 3]\nmylist3 = mylist1 + mylist2\nmylist1.extend(mylist2) # Add mylist2 at the end of mylist1" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } }
+  ]
+}

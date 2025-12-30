@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python"  } },
+	  { "id": "b2", "title": "Define/Clear a Dictionary", "icon": "📝", "action": { "type": "insert", "text": "mydict = {\n\t'Brand': 'Airbus',\n\t'Model': 'A320',\n\t'Year': 1980\n}\nmydict.clear() # Clear the content of the dict" } },
+    { "id": "b3", "title": "Access Items", "icon": "📝", "action": { "type": "insert", "text": "x = mydict['key']\nx = mydict.get('key')" } },
+    { "id": "b4", "title": "Modify/Add Items", "icon": "📝", "action": { "type": "insert", "text": "mydict.update({'key': new value}) # If the key does not exist, it will add a new one\nmydict['key'] = new value" } },
+    { "id": "b5", "title": "Remove Items", "icon": "📝", "action": { "type": "insert", "text": "mydict.pop('key') # Remove the item with the specified key\nmydict.popitem() # Remove the last item" } },
+    { "id": "b6", "title": "Loop a Dictionary", "icon": "📝", "action": { "type": "insert", "text": "for x in thisdict.values():# Loop the values of the dict\n\tprint(x)\nfor x in thisdict.keys(): # Loop the keys of the dict\n\tprint)(x)\nfor x, y in thisdict.items(): # Loop the items\n\tprint(x, y)" } },
+    { "id": "b7", "title": "Copy a Dictionary", "icon": "📝", "action": { "type": "insert", "text": "mydict1 = {xxx}\nmydict2 = mydict1 # mydict2 is a reference to mydict1, changes made in mydict1 will auto. be made in mydict2\nmydict2 = mydict1.copy() # The both dicts are independent" } },
+    { "id": "b8", "title": "Nested Dictionaries", "icon": "📝", "action": { "type": "insert", "text": "child1 = {\n\t'name': 'Emil',\n\t'year': 2004\n}\nchild2 = {\n\t'name': 'Tobias',\n\t'year': 2001\n}\nchild3 = {\n\t'name': 'Max',\n\t'year': 2009\n}\nmyfamily = {\n\t'child1': child1,\n\t'child2': child2,\n\t'child3': child3\n}" } },
+    { "id": "b9", "title": "Access Items by Nested Dictionaries", "icon": "📝", "action": { "type": "insert", "text": "myfamily['outer key']['inner key']" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } }
+  ]
+}

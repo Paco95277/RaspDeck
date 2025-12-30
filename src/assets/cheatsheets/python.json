@@ -3,8 +3,17 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": ""  } },
-    { "id": "b2", "title": "for loop", "icon": "📝", "action": { "type": "insert", "text": "for i in range(10):\n    print(i)\n" } },
-    { "id": "b3", "title": "if loop", "icon": "📝", "action": {"type": "insert", "text": "this is if loop"} },
-    { "id": "b4", "title": "switch case", "icon": "📝", "action": {"type": "insert", "text": "this is switch case" } }
+	  { "id": "b2", "title": "Variables", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/python/variables" } },
+	  { "id": "b3", "title": "Operators", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/python/operators" } },
+	  { "id": "b4", "title": "Print", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/python/print" } },
+    { "id": "b5", "title": "For Loop", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/python/for_loop" } },
+    { "id": "b6", "title": "If Else", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/if_else"} },
+    { "id": "b7", "title": "Match Case", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/match_case" } },
+	  { "id": "b8", "title": "While Loop", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/while_loop" } },
+	  { "id": "b9", "title": "Strings", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/strings" } },
+	  { "id": "b10", "title": "Tuple", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/tuple" } },
+	  { "id": "b11", "title": "Dictionary", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/dictionary" } },
+	  { "id": "b12", "title": "Exceptions", "icon": "📝", "action": {"type": "http", "path": "" } },
+    { "id": "b13", "title": "List", "icon": "📝", "action": {"type": "nav", "path": "/cheatsheet/python/list" } }
   ]
 }

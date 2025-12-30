@@ -19,4 +19,8 @@ export class LayoutService {
   loadCheatSheet(sheet: string) :Promise<LayoutDef> {
     return firstValueFrom(this.http.get<LayoutDef>(`assets/cheatsheets/${sheet.toLocaleLowerCase()}.json`));
   } 
+
+  loadSheetItems(sheet: string, item: string) :Promise<LayoutDef> {
+    return firstValueFrom(this.http.get<LayoutDef>(`assets/cheatsheet_${sheet.toLocaleLowerCase()}/${item.toLocaleLowerCase()}.json`));
+  } 
 }

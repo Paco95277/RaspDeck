@@ -1,0 +1,11 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python"  } },
+    { "id": "b2", "title": "Print Text", "icon": "📝", "action": { "type": "insert", "text": "print('text')" } },
+	  { "id": "b3", "title": "Print Var", "icon": "📝", "action": { "type": "insert", "text": "print('Variable has value:', var)" } },
+    { "id": "b4", "title": "printf Var", "icon": "📝", "action": { "type": "insert", "text": "print(f'Variable with value {var} is printed')" } },
+    { "id": "b4", "title": "print Path", "icon": "📝", "action": { "type": "insert", "text": "print(r'<path with backslash>')" } }
+  ]
+}

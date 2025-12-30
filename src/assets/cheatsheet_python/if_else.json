@@ -1,0 +1,15 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python"  } },
+	  { "id": "b2", "title": "If Elif", "icon": "📝", "action": { "type": "insert", "text": "if var >= value:\n\tcode1\nelif var == value:\n\tcode2\nelse:\n\tcode3" } },
+    { "id": "b2", "title": "Shorthand If", "icon": "📝", "action": { "type": "insert", "text": "statementA if var1 > var2 else statementB\nvar = value1 if value1 > value2 else value2" } },
+    { "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } }
+  ]
+}
