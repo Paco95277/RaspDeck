@@ -11,9 +11,10 @@
     { "id": "b7", "title": "Match Case", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/match_case" } },
 	  { "id": "b8", "title": "While Loop", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/while_loop" } },
 	  { "id": "b9", "title": "Strings", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/strings" } },
-	  { "id": "b10", "title": "Tuple", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/tuple" } },
-	  { "id": "b11", "title": "Dictionary", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/dictionary" } },
-	  { "id": "b12", "title": "Exceptions", "icon": "📝", "action": {"type": "http", "path": "" } },
-    { "id": "b13", "title": "List", "icon": "📝", "action": {"type": "nav", "path": "/cheatsheet/python/list" } }
+	  { "id": "b10", "title": "Json", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/python_json" } },
+	  { "id": "b11", "title": "Dictionaries", "icon": "📝", "action": {"type": "nav", "route": "/cheatsheet/python/dictionaries" } },
+	  { "id": "b12", "title": "Exceptions", "icon": "📝", "action": {"type": "http", "path": "/cheatsheet/python/exceptions" } },
+    { "id": "b13", "title": "List", "icon": "📝", "action": {"type": "nav", "path": "/cheatsheet/python/list" } },
+    { "id": "b14", "title": "Lambda", "icon": "📝", "action": {"type": "nav", "path": "/cheatsheet/python/lambda" } }
   ]
 }

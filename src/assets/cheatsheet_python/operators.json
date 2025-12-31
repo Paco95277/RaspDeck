@@ -3,6 +3,13 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python"  } },
-	  { "id": "b2", "title": "Logical Operators", "icon": "📝", "action": { "type": "insert", "text": "and, or, not" } }
+	  { "id": "b2", "title": "Logical", "icon": "📝", "action": { "type": "insert", "text": "and, or, not\n" } },
+    { "id": "b3", "title": "Modulus", "icon": "📝", "action": { "type": "insert", "text": "x % y\n" } },
+    { "id": "b4", "title": "Exponentiation", "icon": "📝", "action": { "type": "insert", "text": "x ** y\n" } },
+    { "id": "b5", "title": "Floor Division", "icon": "📝", "action": { "type": "insert", "text": "x // y # Round down to an integer\n" } },
+    { "id": "b6", "title": "Walrus", "icon": "📝", "action": { "type": "insert", "text": "variable := expression\n" } },
+    { "id": "b7", "title": "Comparison", "icon": "📝", "action": { "type": "insert", "text": "== Equal, != Not equal, > Greater than, >= Greater than or equal to\n" } },
+    { "id": "b8", "title": "Identity", "icon": "📝", "action": { "type": "insert", "text": "x is y # Returns True if both variables are the same object in memory\nx is not y # Returns True if both variables are not the same object\n" } },
+    { "id": "b9", "title": "Bitwise", "icon": "📝", "action": { "type": "insert", "text": "& AND, | OR, ^ XOR, ~ NOT, << Zero fill left shift, >> Signed right shift\n" } }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
+	  { "id": "b2", "title": "Import Json", "icon": "📝", "action": { "type": "insert", "text": "import json\n" } },
+    { "id": "b3", "title": "Load Json", "icon": "📝", "action": { "type": "insert", "text": "dict = json.loads(<json file>) # Read the json file as a dictionary\n" } },
+    { "id": "b4", "title": "Convert to Json", "icon": "📝", "action": { "type": "insert", "text": "json_ = json.dumps(<dict obj>, indent = <num>, sort_keys = <bool>)\n # Convert a dict to a Json with param intent (optional, set the intentations) and sort_keys (optional, sort the keys)\n" } }
+  ]
+}

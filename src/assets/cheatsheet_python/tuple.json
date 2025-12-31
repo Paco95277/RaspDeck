@@ -1,8 +1,0 @@
-{
-  "rows": 3,
-  "cols": 5,
-  "buttons": [
-    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python"  } },
-	{ "id": "b2", "title": "tuple", "icon": "📝", "action": { "type": "insert", "text": "tuple" } }
-  ]
-}

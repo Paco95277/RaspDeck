@@ -5,7 +5,8 @@ import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class UartService {
-  private baseUrl = 'http://192.168.0.119:8001/api/uart';
+  // private baseUrl = 'http://192.168.0.119:8001/api/uart';
+  private baseUrl ='/api/uart';
 
   constructor(private http: HttpClient) {}
 
