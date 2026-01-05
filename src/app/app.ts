@@ -1,6 +1,5 @@
 import { Component, signal, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ApiClient } from './core/services/api-client';
 
 @Component({
   selector: 'app-root',

@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
+	  { "id": "b2", "title": "Define a Array", "icon": "📝", "action": { "type": "insert", "text": "const arrName: <type>[] = [xxx]; // Add the keyword readyonly to prevent it from being changed\n" } },
+    { "id": "b3", "title": "Check Type Array", "icon": "📝", "action": { "type": "insert", "text": "console.log(arrName instanceof Array) // Check if it is an instance of an array\n" } },
+    { "id": "b4", "title": "Convert to String", "icon": "📝", "action": { "type": "insert", "text": "arrName.toString(); // Return a string of comma separated array values\narray.join('<separator>') // Return a string with the specified separator \n" } },
+    { "id": "b5", "title": "Length of Array", "icon": "📝", "action": { "type": "insert", "text": "arrName.length // Return number of elements \n" } },
+    { "id": "b6", "title": "Push/Pop Elements", "icon": "📝", "action": { "type": "insert", "text": "arrName.push(<value>); // Add a new element at the end\narrName.pop(); // Removes the last element \n" } },
+    { "id": "b7", "title": "Merge Arrays", "icon": "📝", "action": { "type": "insert", "text": "const mergedArr = arr1.concat(arr2);\n" } },
+    { "id": "b8", "title": "Get Element Pos", "icon": "📝", "action": { "type": "insert", "text": "let pos = arrName.indexOf(<element>, <start>); // Return the position of the element (-1 if not found). \n//<start> is optional to specify the start point\n" } },
+    { "id": "b9", "title": "Get Element Last Pos", "icon": "📝", "action": { "type": "insert", "text": "let pos = arrName.lastIndexOf(<element>, <start>); // Return the last position of the element (-1 if not found). \n//<start> is optional to specify the start point\n" } },
+    { "id": "b10", "title": "Include Element", "icon": "📝", "action": { "type": "insert", "text": "arrName.includes(<element>) // Return ture or false\n" } },
+    { "id": "b11", "title": "Sort/Reverse a Array", "icon": "📝", "action": { "type": "insert", "text": "arrName.sort(); // Sort the elements alphabetically\narrName.reverse(); // Reverse the elements\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "Iteration Methods", "icon": "📝", "action": { "type": "http", "path": "\n" } }
+  ]
+}

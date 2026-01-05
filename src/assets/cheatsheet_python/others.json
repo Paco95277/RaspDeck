@@ -3,6 +3,6 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
-	  { "id": "b2", "title": "While Loop", "icon": "📝", "action": { "type": "insert", "text": "while <expression>:\n" } }
+	  { "id": "b2", "title": "Ignore Type Check", "icon": "📝", "action": { "type": "insert", "text": "# type: ignore[attr-defined]\n" } }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
+    { "id": "b2", "title": "Load Json String", "icon": "📝", "action": { "type": "insert", "text": "import json\njson_str = '{xxx: xxx}'\ndict = json.loads(json_str) # Read the json string as a dictionary\n" } },
+    { "id": "b3", "title": "Load Json Object", "icon": "📝", "action": { "type": "insert", "text": "import json\nwith open('config.json', 'r', encoding='utf-8') as f:\n\tdata = json.load(f)\ndata.get(<key>, <default value>) # Get the value with the specified key, if the key does not exist, it will return the default value" } },
+    { "id": "b4", "title": "Convert to Json", "icon": "📝", "action": { "type": "insert", "text": "json_ = json.dumps(<dict obj>, indent = <num>, sort_keys = <bool>)\n # Convert a dict to a Json with param intent (optional, set the intentations) and sort_keys (optional, sort the keys)\n" } },
+    { "id": "b5", "title": "Import File", "icon": "📝", "action": { "type": "insert", "text": "import pandas as pd\ntry:\n\tfile_path = input('Enter the path of file:').strip()\n\t\tif not os.path.exists(excel_path):\n\t\t\traise FileNotFoundError('File not found')\n\texcept FileNotFoundError as e:\n\t\tprint()\n" } },
+    { "id": "b6", "title": "Read Excel Sheet", "icon": "📝", "action": { "type": "insert", "text": "df = pd.read_excel(excel_path, header=None) if not sheet_name else pd.read_excel(excel_path, sheet_name=sheet_name, header=None)\n" } },
+    { "id": "b7", "title": "Convert Sheet to List", "icon": "📝", "action": { "type": "insert", "text": "column_slice = df.iloc[start_row:end_row, col_index]\n" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+
+  ]
+}

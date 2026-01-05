@@ -42,7 +42,7 @@ export class CheatsheetComponent {
   );
 
   async onTilePressed(b: ButtonDef) {
-    console.log('[PRESS]', b);
+    console.log('[PRESS]', b.title);
     await this.runner.run(b);
   }
 }

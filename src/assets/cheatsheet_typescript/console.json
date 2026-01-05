@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
+	  { "id": "b2", "title": "Output Types", "icon": "📝", "action": { "type": "insert", "text": "console.<log, info, warn, error, debug>('Text')\n" } },
+    { "id": "b3", "title": "Simple Output", "icon": "📝", "action": { "type": "insert", "text": "console.log('The user name is: ', userName);\n" } },
+    { "id": "b4", "title": "Output as Key-Value", "icon": "📝", "action": { "type": "insert", "text": "console.log({userName});\n" } },
+    { "id": "b5", "title": "Output with Var", "icon": "📝", "action": { "type": "insert", "text": "console.log(`The user name is ${userName}`)\n" } },
+    { "id": "b6", "title": "Time", "icon": "📝", "action": { "type": "insert", "text": "// Measure the time it takes to run the code\nconsole.time();\nSome code\nconsole.timeEnd()\n" } },
+    { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

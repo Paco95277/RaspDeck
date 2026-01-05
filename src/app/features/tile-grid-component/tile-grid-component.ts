@@ -15,9 +15,6 @@ export class TileGridComponent {
   @Output() pressed = new EventEmitter<ButtonDef>();
   layoutSrv = inject(LayoutService); 
 
-  constructor() {
-    console.log('TileGridComponent constructor')
-  }
   tiles = computed<ButtonDef[]>(() => {
     const l = this.layoutSrv.layoutSwitch();
     if (!l) return [];

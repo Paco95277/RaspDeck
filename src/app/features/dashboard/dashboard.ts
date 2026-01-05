@@ -20,7 +20,6 @@ export class DashboardPage implements OnInit {
  
   async ngOnInit() {
     try {
-      console.log('DashboardPage ngOnInit');
       const lay = await this.layoutSrv.loadDefaultLayout();
       this.layoutSrv.layoutSwitch.set(lay);
     } catch(e) {

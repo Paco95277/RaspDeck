@@ -8,10 +8,6 @@ export class LayoutService {
   private http = inject(HttpClient);
   layoutSwitch = signal<LayoutDef | null>(null);
 
-  constructor() {
-    console.log('LayoutService constructor', this);
-  }
-
   loadDefaultLayout(): Promise<LayoutDef> {
     return firstValueFrom(this.http.get<LayoutDef>('assets/default-layout.json'));
   }

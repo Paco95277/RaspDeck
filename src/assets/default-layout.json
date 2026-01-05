@@ -2,7 +2,7 @@
   "rows": 3,
   "cols": 5,
   "buttons": [
-    { "id": "b1", "title": "Terminal", "icon": "⌨️", "action": { "type": "shell", "cmd": "xfce4-terminal" } },
+    { "id": "b1", "title": "Terminal", "icon": "⌨️", "action": { "type": "shell", "cmd": "terminal" } },
     { "id": "b2", "title": "FastAPI", "icon": "🚀", "action": { "type": "nav", "route": "/cheatsheet/fastapi" } },
     { "id": "b3", "title": "Angular", "icon": "🅰️", "action": { "type": "nav", "route": "/cheatsheet/angular" } },
     { "id": "b4", "title": "Linux", "icon": "🐧", "action": { "type": "nav", "route": "/cheatsheet/linux" } },

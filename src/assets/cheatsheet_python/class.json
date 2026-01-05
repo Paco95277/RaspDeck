@@ -1,0 +1,20 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
+	  { "id": "b2", "title": "Define a Class", "icon": "📝", "action": { "type": "insert", "text": "class ClassA:\n\tdef __init__(self, prop1, prop2):\n\t\tself.prop1 = prop1\n\t\tself.prop2 = prop2\n\ninstance1 = ClassA(<value_for_prop1>, <value_for_prop2>)\n" } },
+    { "id": "b3", "title": "Private and protected Properties", "icon": "📝", "action": { "type": "insert", "text": "# Convention: define private properties with __, define protected properites with _\n " } },
+    { "id": "b4", "title": "Inheritance", "icon": "📝", "action": { "type": "insert", "text": "class Child(Parent):\n\tdef __init__(self, prop):\n\t\tsuper().__init__(prop)\n" } },
+    { "id": "b5", "title": "SimpleNamespace", "icon": "📝", "action": { "type": "insert", "text": "from types import SimpleNamespace\nself.shared_var = SimpleNamespace(value=False) # Define a variable with a default value false that can be shard within multiple classes\nself.subClassInstance= SubClass(…shared_var=self.shared_var) # Transfer it to the target class\nclass SubClass():\n\tdef __init__(shared_var):\n\t\tself.shared_var = shared_var # Use it in the target class\n\tself.shared_var.value = True # Assign value of it, all instances of this variable will get updated synchronously\n" } },
+    { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } }
+  ]
+}

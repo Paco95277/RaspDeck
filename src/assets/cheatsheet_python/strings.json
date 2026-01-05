@@ -5,7 +5,7 @@
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
 	  { "id": "b2", "title": "Multiline Strings", "icon": "📝", "action": { "type": "insert", "text": "multi_str = \"\"\"This string has \nmultiple lines.\"\"\"\n" } },
     { "id": "b3", "title": "Slice", "icon": "📝", "action": { "type": "insert", "text": "text[<num1>:<num2>] # Get characters from position num1 to num2 (num2 not included)\n" } },
-    { "id": "b4", "title": "Slice From Start/To End", "icon": "📝", "action": { "type": "insert", "text": "text[:5] # Get characters from the start to pos 5 (5 not included)\ntext[2:] # Get characters from the pos 2 to the end\n" } },
+    { "id": "b4", "title": "Slice From Start/To End", "icon": "📝", "action": { "type": "insert", "text": "text[:<num>] # Get characters from the start to pos num (not included)\ntext[<num>:] # Get characters from the pos num to the end\n" } },
     { "id": "b5", "title": "Negative Slice", "icon": "📝", "action": { "type": "insert", "text": "text[-1] # Get the last character\n" } },
     { "id": "b6", "title": "Upper/Lower Case", "icon": "📝", "action": { "type": "insert", "text": "text.upper() # Set the string as upper case\ntext.lower() # Set the string as lower case\n" } },
     { "id": "b7", "title": "Remove Whitespaces", "icon": "📝", "action": { "type": "insert", "text": "text = ' Hello, World '\nprint(text.strip()) # Remove any whitespaces from the beginning or the end\n" } },

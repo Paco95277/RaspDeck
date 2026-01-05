@@ -3,6 +3,19 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
-	  { "id": "b2", "title": "Try Except", "icon": "📝", "action": { "type": "insert", "text": "try:\n\tcode\nexcept:\n\tSomething went wrong\nelse:\n\tNothing went wrong\nfinally:\n\tWill be executed regardless if an error occured or not\n" } }
+	  { "id": "b2", "title": "Try Except", "icon": "📝", "action": { "type": "insert", "text": "try:\n\tcode\nexcept:\n\tSomething went wrong\nelse:\n\tNothing went wrong\nfinally:\n\tWill be executed regardless if an error occured or not\n" } },
+    { "id": "b3", "title": "ValueError", "icon": "📝", "action": { "type": "insert", "text": "try:\n\tx = int('abc')\nexcept ValueError:\n\tprint('Unvalid value')\n" } },
+    { "id": "b4", "title": "TypeError", "icon": "📝", "action": { "type": "insert", "text": "# Incompatible parameter type\n" } },
+    { "id": "b5", "title": "IndexError", "icon": "📝", "action": { "type": "insert", "text": "listA = [1, 2, 3]\nprint(listA[4]) # Index out of bounds\n" } },
+    { "id": "b6", "title": "FileNotFoundError", "icon": "📝", "action": { "type": "insert", "text": "try:\n\twith open('file_name') as f:\n\t\tpass\nexcept FileNotFoundError:\n\tprint()\n" } },
+    { "id": "b7", "title": "PermissionError", "icon": "📝", "action": { "type": "insert", "text": "try:\n\topen('/root/test.txt', 'w')\nexcept PermissionError:\n\tprint('No write permission')\n" } },
+    { "id": "b8", "title": "TimeoutError", "icon": "📝", "action": { "type": "insert", "text": "import time\ntry:\n\ttime.sleep(5)\n\traise TimeoutError('timeout')\nexcept TimeoutError:\n\tprint('Timeout')\n" } },
+    { "id": "b9", "title": "OSError", "icon": "📝", "action": { "type": "insert", "text": "try:\n\timport os\n\tos.remove('/not/exist')\nexcept OSError as e:\n\tprint('System error:', e)\n" } },
+    { "id": "b10", "title": "KeyboardInterrupt", "icon": "📝", "action": { "type": "insert", "text": "try:\n\twhile True:\n\t\tpass\nexcept KeyboardInterrupt:\n\tprint('Terminated by user')\n" } },
+    { "id": "b11", "title": "Exception (as safety net)", "icon": "📝", "action": { "type": "insert", "text": "try:\n\tsome code\nexcept Exception as e: # Put this in the end of a try-exception structure\n\tprint('Unknown error:', e)\n" } },
+    { "id": "b12", "title": "Self-defined Excepetion", "icon": "📝", "action": { "type": "insert", "text": "class SelfDefinedException(Exception):\n\tpass\n\nraise SelfDefinedException('Message')\n" } },
+    { "id": "b13", "title": "Raise Customized Error", "icon": "📝", "action": { "type": "insert", "text": "def set_pwm_duty(duty: float):\n\tif not 0.0 <= duty <= 1.0:\n\t\traise ValueError('Duty must be between 0.0 and 1.0')\n" } },
+    { "id": "b14", "title": "Raise after Print/Log", "icon": "📝", "action": { "type": "insert", "text": "try:\n\tdo_hardware_io()\nexcept OSError as e:\n\tlog.error('IO failed: %s', e)\n\tprint('IO failed: %s', e)\n\traise\n" } },
+    { "id": "b15", "title": "Raise Structure Example", "icon": "📝", "action": { "type": "insert", "text": "class HardwareError(Exception):\n\tpass\ndef read_sensor():\n\ttry:\n\t\tlow_level_read()\n\texcept OSError as e:\n\t\t raise HardwareError('Sensor read failed') from e\n\n# By upper structure:\ntry:\n\tread_sensor()\nexcept HardwareError:\n\tsafe_shutdown()\n" } }
   ]
 }
