@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
+	  { "id": "b2", "title": "Define a Numeric Enum", "icon": "📝", "action": { "type": "insert", "text": "// By default, first value is 0 and each additional value will be added 1\nenum EnumName {\n\titem1,\n\titem2,\n\titem3\n}\n" } },
+    { "id": "b3", "title": "Access the Items", "icon": "📝", "action": { "type": "insert", "text": "let currentItem = EnumName.item1;\n" } },
+    { "id": "b4", "title": "Initialize an Enum", "icon": "📝", "action": { "type": "insert", "text": "// The other items will get auto incremented from 1\nenum EnumName {\n\titem1 = 1,\n\titem2,\n\titem3\n}\n" } },
+    { "id": "b5", "title": "Fully Initialize an Enum", "icon": "📝", "action": { "type": "insert", "text": "// Each item has an unique value\nenum EnumName {\n\titem1 = 100,\n\titem2 = 108,\n\titem3 = 80\n}\n" } },
+    { "id": "b6", "title": "Define a String Enum", "icon": "📝", "action": { "type": "insert", "text": "enum EnumName {\n\titem1 = 'text',\n\titem2 = 'text',\n\titem3 = 'text'\n}\n" } },
+    { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

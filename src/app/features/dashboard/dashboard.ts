@@ -5,7 +5,6 @@ import { LayoutDef, ButtonDef } from '../../models/model-define';
 import {ActionRunnerService} from '../../core/services/action-runner';
 import { Router } from '@angular/router';
 import { TileGridComponent } from '../tile-grid-component/tile-grid-component';
-import {TileEvent} from '../../models/tile-event';
 
 @Component({
   selector: 'app-dashboard',

@@ -1,8 +1,0 @@
-{
-  "rows": 3,
-  "cols": 5,
-  "buttons": [
-    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
-	  { "id": "b2", "title": "Match Case", "icon": "📝", "action": { "type": "insert", "text": "match expression:\n\tcase x:\n\t\tcode1\n\tcase y:\n\t\tcode2\n\tcase _:\n\t\tcode3\n" } }
-  ]
-}

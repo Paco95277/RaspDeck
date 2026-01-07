@@ -13,8 +13,8 @@
     { "id": "b9", "title": "Get Element Last Pos", "icon": "📝", "action": { "type": "insert", "text": "let pos = arrName.lastIndexOf(<element>, <start>); // Return the last position of the element (-1 if not found). \n//<start> is optional to specify the start point\n" } },
     { "id": "b10", "title": "Include Element", "icon": "📝", "action": { "type": "insert", "text": "arrName.includes(<element>) // Return ture or false\n" } },
     { "id": "b11", "title": "Sort/Reverse a Array", "icon": "📝", "action": { "type": "insert", "text": "arrName.sort(); // Sort the elements alphabetically\narrName.reverse(); // Reverse the elements\n" } },
-    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "Define a Tuple", "icon": "📝", "action": { "type": "insert", "text": "let tupleName: [number, boolean, string]; // A Tuple is a typed array\ntupleName = [5, false, 'text'];\n" } },
+    { "id": "b13", "title": "Define a Readonly Tuple", "icon": "📝", "action": { "type": "insert", "text": "const tupleName: readonly [<type>] = [<value>]\n" } },
     { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b15", "title": "Iteration Methods", "icon": "📝", "action": { "type": "http", "path": "\n" } }
   ]

@@ -3,10 +3,10 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
-	  { "id": "b2", "title": "Exponentiation", "icon": "📝", "action": { "type": "insert", "text": "a ** b\n" } },
-    { "id": "b3", "title": "Modulus", "icon": "📝", "action": { "type": "insert", "text": "a % b\n" } },
-    { "id": "b4", "title": "Equal Comparison", "icon": "📝", "action": { "type": "insert", "text": "a === b, a !== b\n" } },
-    { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	  { "id": "b2", "title": "Define a Class", "icon": "📝", "action": { "type": "insert", "text": "class className {\n\tmember: <type>;\n}\nconst inst = new className();\ninst.member = <value>;\n" } },
+    { "id": "b3", "title": "Const", "icon": "📝", "action": { "type": "insert", "text": "const varName = <value>; // Define inside a method\n" } },
+    { "id": "b4", "title": "Readonly", "icon": "📝", "action": { "type": "insert", "text": "private readonly varName = <value>; // Define inside a class. If this is an array or object, its content can still be changed.\nAdd 'as const' in this case at the end'\n" } },
+    { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "// \n" } },
     { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
@@ -15,6 +15,7 @@
     { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
   ]
 }

@@ -1,8 +1,0 @@
-{
-  "rows": 3,
-  "cols": 5,
-  "buttons": [
-    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
-	  { "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "" } }
-  ]
-}

@@ -4,7 +4,6 @@ import { ActivatedRoute } from '@angular/router';
 import { LayoutService } from '../../core/services/layout';
 import { AsyncPipe, JsonPipe } from '@angular/common';
 import { TileGridComponent } from "../tile-grid-component/tile-grid-component";
-import {TileEvent} from '../../models/tile-event';
 import { LayoutDef, ButtonDef } from '../../models/model-define';
 import {ActionRunnerService} from '../../core/services/action-runner';
 

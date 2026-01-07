@@ -3,7 +3,7 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Terminal", "icon": "⌨️", "action": { "type": "shell", "cmd": "terminal" } },
-    { "id": "b2", "title": "FastAPI", "icon": "🚀", "action": { "type": "nav", "route": "/cheatsheet/fastapi" } },
+    { "id": "b2", "title": "FastAPI/Uvicorn", "icon": "🚀", "action": { "type": "nav", "route": "/cheatsheet/fastapi_uvicorn" } },
     { "id": "b3", "title": "Angular", "icon": "🅰️", "action": { "type": "nav", "route": "/cheatsheet/angular" } },
     { "id": "b4", "title": "Linux", "icon": "🐧", "action": { "type": "nav", "route": "/cheatsheet/linux" } },
     { "id": "b5", "title": "Windows", "icon": "🪟", "action": { "type": "nav", "route": "/cheatsheet/windows" } },
@@ -12,6 +12,8 @@
     { "id": "b8", "title": "VBA", "icon": "📊", "action": { "type": "nav", "route": "/cheatsheet/vba" } },
     { "id": "b9", "title": "JSON", "icon": "{ }", "action": { "type": "nav", "route": "/cheatsheet/json" } },
     { "id": "b10", "title": "HTML", "icon": "🌐", "action": { "type": "nav", "route": "/cheatsheet/html" } },
-    { "id": "b11", "title": "C/C++", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/cpp" } }
+    { "id": "b11", "title": "C/C++", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/cpp" } },
+    { "id": "b12", "title": "Ollama", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/ollama" } },
+    { "id": "b13", "title": "Git", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/git" } }
   ]
 }

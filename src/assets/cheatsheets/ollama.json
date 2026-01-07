@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "" } },
+	  { "id": "b2", "title": "Show Avail Models", "icon": "📝", "action": { "type": "insert", "text": "ollama list\n" } },
+    { "id": "b3", "title": "Show Model in Used", "icon": "📝", "action": { "type": "insert", "text": "ollama ps\n" } },
+    { "id": "b4", "title": "Pull Model", "icon": "📝", "action": { "type": "insert", "text": "ollama pull <model name>\n" } },
+    { "id": "b5", "title": "Remove Model", "icon": "📝", "action": { "type": "insert", "text": "ollama rm <model name>\n" } },
+    { "id": "b6", "title": "Show Model Details", "icon": "📝", "action": { "type": "insert", "text": "ollama show <model name>\n" } },
+    { "id": "b7", "title": "Run Model in Terminal", "icon": "📝", "action": { "type": "insert", "text": "ollama run <model name>\n" } },
+    { "id": "b8", "title": "Test Model Speed", "icon": "📝", "action": { "type": "insert", "text": "ollama benchmark <model name>\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

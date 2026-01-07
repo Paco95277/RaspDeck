@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "" } },
+    { "id": "b2", "title": "Min FastAPI Template", "icon": "📝", "action": { "type": "insert", "text": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef root():\n\treturn {'status': 'ok'}\n" } },
+	  { "id": "b3", "title": "Import CORS", "icon": "📝", "action": { "type": "insert", "text": "from fastapi.middleware.cors import CORSMiddleware\n\napp.add_middleware(\n\tCORSMiddleware,\n\tallow_origins=['http://localhost:4200','http://127.0.0.1:4200'],\n\tallow_credentials=True,\n\tallow_methods=['*'],\n\tallow_headers=['*'],\n)" } },
+    { "id": "b4", "title": "Run", "icon": "📝", "action": { "type": "insert", "text": "fastapi dev code_file.py\n" } },
+    { "id": "b5", "title": "GET (Query Param)", "icon": "📝", "action": { "type": "insert", "text": "@app.get('/items')\ndef get_items(limit: int = 10, offset: int = 0):\n\treturn {\n\t\t'limit': limit,\n\t\t'offset': offset\n\t}\n# Visit: /items?limit=5&offset=20\n" } },
+    { "id": "b6", "title": "GET (Path Param)", "icon": "📝", "action": { "type": "insert", "text": "@app.get('/items/{item_id}')\ndef get_item(item_id: int):\n\treturn {'item_id': item_id}\n" } },
+    { "id": "b7", "title": "POST", "icon": "📝", "action": { "type": "insert", "text": "class ItemResponse(BaseModel):\n\tmem: <type>\n\n@app.post('/items', response_model=ItemResponse)\ndef create_item(item: ItemRequest):\n\treturn {'mem': <value>}\n" } },
+    { "id": "b8", "title": "HttpException", "icon": "📝", "action": { "type": "insert", "text": "from fastapi import HTTPException\n\nraise HTTPException(status_code=<num>, detail='text')\n" } },
+    { "id": "b9", "title": "Upload File", "icon": "📝", "action": { "type": "insert", "text": "from fastapi import UploadFile, File\n\n@app.post('/upload')\nasync def upload_file(file: UploadFile = File(...)):\n\tcontent = await file.read()\n\treturn {\n\t\t'filename': file.filename,\n\t\t'size': len(content)\n\t}\n" } },
+    { "id": "b10", "title": "Config Static File", "icon": "📝", "action": { "type": "insert", "text": "from fastapi.staticfiles import StaticFiles\nDIR = '/path'\napp.mount('/', StaticFiles(directory=DIR, html=True), name='')\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
+	  { "id": "b2", "title": "Define an Object", "icon": "📝", "action": { "type": "insert", "text": "const person = {firstName:'Ben', lastName:'Cai', age:50}; // As key-value-pairs\n" } },
+    { "id": "b3", "title": "Access Object Properties", "icon": "📝", "action": { "type": "insert", "text": "objectName.propertyName\n" } },
+    { "id": "b4", "title": "Object Constructor Function", "icon": "📝", "action": { "type": "insert", "text": "function Person(first, last, age) {\n\tthis.firstName = first;\n\tthis.lastName = last;\n\tthis.age = age;\n\tthis.eyeColor = red;//This is default value\n}\nconst myPerson = new Person(<text>, <text>, <num>);\n" } },
+    { "id": "b5", "title": "Add/Delete Properties", "icon": "📝", "action": { "type": "insert", "text": "objectName.newProp = <value>\ndelete objectName.prop\n" } },
+    { "id": "b6", "title": "Propertiy as Method", "icon": "📝", "action": { "type": "insert", "text": "prop: function() {code // You can access the other properties via this.propName}\n" } },
+    { "id": "b7", "title": "Display Obj by Adding", "icon": "📝", "action": { "type": "insert", "text": "let dispText = objectName.prop1 + ',' + objectName.prop2;\n" } },
+    { "id": "b8", "title": "Display Obj by For", "icon": "📝", "action": { "type": "insert", "text": "let dispText = '';\nfor (let x in objectName){\n\tdispText += objectName[x] + ' ';\n};\n" } },
+    { "id": "b9", "title": "Convert to JSON", "icon": "📝", "action": { "type": "insert", "text": "let text = JSON.stringify(objectName);\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

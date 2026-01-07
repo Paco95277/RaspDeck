@@ -2,7 +2,6 @@ import { Component, OnInit, inject, signal, computed, EventEmitter, Output } fro
 import { CommonModule } from '@angular/common';
 import { LayoutService } from '../../core/services/layout';
 import { LayoutDef, ButtonDef } from '../../models/model-define';
-import {TileEvent} from '../../models/tile-event';
 
 @Component({
   selector: 'app-tile-grid-component',

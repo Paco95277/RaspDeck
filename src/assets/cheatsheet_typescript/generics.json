@@ -3,9 +3,9 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
-	  { "id": "b2", "title": "Exponentiation", "icon": "📝", "action": { "type": "insert", "text": "a ** b\n" } },
-    { "id": "b3", "title": "Modulus", "icon": "📝", "action": { "type": "insert", "text": "a % b\n" } },
-    { "id": "b4", "title": "Equal Comparison", "icon": "📝", "action": { "type": "insert", "text": "a === b, a !== b\n" } },
+	  { "id": "b2", "title": "Generic in Func", "icon": "📝", "action": { "type": "insert", "text": "function createPair<S, T>(v1: S, v2: T): [S, T] {\n\treturn [v1, v2];\n}\ncreatePair<string, number>('hello', 12);\n" } },
+    { "id": "b3", "title": "Generic in Class", "icon": "📝", "action": { "type": "insert", "text": "class className<T> {\n\tconstructor(public value: T) {}\n}\nconst inst1 = new className(123); // T = number\nconst inst2 = new className('hi'); // T = string\n" } },
+    { "id": "b4", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
@@ -15,6 +15,7 @@
     { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
   ]
 }
