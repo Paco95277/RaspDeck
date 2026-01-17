@@ -1,0 +1,22 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/html" } },
+	{ "id": "b2", "title": "Simple @if", "icon": "📝", "action": { "type": "insert", "text": "@if (showHello) {\n\t<h2>Hello</h2>\n}\n" } },
+	{ "id": "b3", "title": "@if @else if", "icon": "📝", "action": { "type": "insert", "text": "@if (showHello) {\n\t<h2>Hello</h2>\n}\n@else if (showGoodbye) {\n\t<h2>Goodbye</h2>\n}\n@else {\n\t<h2>See you</h2>\n}\n" } },
+	{ "id": "b4", "title": "More about @if", "icon": "📝", "action": { "type": "open_url", "url": "https://blog.angular-university.io/angular-if/" } },
+	{ "id": "b5", "title": "@switch", "icon": "📝", "action": { "type": "insert", "text": "@switch (color) {\n\t@case ('red') {\n\t\t<div>Red</div>\n\t}\n\t@default {\n\t<div>Default</div>\n\t}\n}\n" } },
+	{ "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+
+  ]
+}

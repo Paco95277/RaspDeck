@@ -12,7 +12,7 @@
     { "id": "b8", "title": "Type/Interface", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/type_interface" } },
     { "id": "b9", "title": "Class", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/class" } },
     { "id": "b10", "title": "Generics", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/generics" } },
-    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
+    { "id": "b11", "title": "If Else", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/if_else" } },
     { "id": "b12", "title": "", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
     { "id": "b13", "title": "", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
     { "id": "b14", "title": "", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },

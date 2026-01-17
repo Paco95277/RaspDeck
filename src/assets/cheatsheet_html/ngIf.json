@@ -1,0 +1,22 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/html" } },
+	{ "id": "b2", "title": "Simple @if", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b3", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b4", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+
+  ]
+}
