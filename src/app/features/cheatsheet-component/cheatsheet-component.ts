@@ -20,9 +20,6 @@ export class CheatsheetComponent {
   private runner = inject(ActionRunnerService);
   @Output() pressed = new EventEmitter<ButtonDef>();
 
-  // layout$ = this.route.paramMap.pipe(switchMap(pm => this.layoutSrv.loadCheatSheet(pm.get('sheet')!)),
-  //   tap(layout => this.layoutSrv.layoutSwitch.set(layout)));
-
   layout$ = this.route.paramMap.pipe(
     map(pm => ({
       sheet: pm.get('sheet') ?? '',

@@ -1,0 +1,14 @@
+.ss-overlay{
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  gap: 12px;
+  background: rgba(0,0,0,0.92);
+  color: #eaeaea;
+  z-index: 9999;
+  user-select: none;
+  touch-action: manipulation;
+}
+.ss-clock{ font-size: 70px; font-weight: 600; text-align: center; }
+.ss-date{ font-size: 50px; text-align: center; opacity: .85; }

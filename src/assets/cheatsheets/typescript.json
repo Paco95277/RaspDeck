@@ -3,19 +3,19 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "" } },
-    { "id": "b2", "title": "Variables", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/variables" } },
-    { "id": "b3", "title": "Operators", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/operators" } },
-    { "id": "b4", "title": "Console", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/console" } },
-    { "id": "b5", "title": "Array/Tuple", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/array_tuple" } },
-    { "id": "b6", "title": "Object", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/object" } },
-    { "id": "b7", "title": "Enum", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/enum" } },
-    { "id": "b8", "title": "Type/Interface", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/type_interface" } },
-    { "id": "b9", "title": "Class", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/class" } },
-    { "id": "b10", "title": "Generics", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/generics" } },
-    { "id": "b11", "title": "If Else", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/if_else" } },
-    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
-    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
-    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
-    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } }
+    { "id": "b2", "title": "Variables", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/variables" } },
+    { "id": "b3", "title": "Operators", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/operators" } },
+    { "id": "b4", "title": "Console", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/console" } },
+    { "id": "b5", "title": "Array/Tuple", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/array_tuple" } },
+    { "id": "b6", "title": "Object", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/object" } },
+    { "id": "b7", "title": "Enum", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/enum" } },
+    { "id": "b8", "title": "Type/Interface", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/type_interface" } },
+    { "id": "b9", "title": "Class", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/class" } },
+    { "id": "b10", "title": "Generics", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/generics" } },
+    { "id": "b11", "title": "If Else", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/if_else" } },
+    { "id": "b12", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
+    { "id": "b13", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
+    { "id": "b14", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
+    { "id": "b15", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } }
   ]
 }

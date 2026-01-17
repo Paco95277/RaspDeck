@@ -1,0 +1,15 @@
+@if (idle$ | async; as idle) {
+  @if (idle) {
+    <div class="ss-overlay" (click)="wake()">
+      <div class="ss-clock">
+        {{ now | date:'HH:mm' }}
+      </div>
+      <div class="ss-date">
+        {{ now | date:'EEEE dd-MM-yyyy ' }}
+      </div>
+      <div class="ss-holiday">
+        {{}}
+      </div>
+    </div>
+  }
+}

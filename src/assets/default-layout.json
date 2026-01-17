@@ -11,9 +11,9 @@
     { "id": "b7", "title": "TypeScript", "icon": "🔷", "action": { "type": "nav", "route": "/cheatsheet/typescript" } },
     { "id": "b8", "title": "VBA", "icon": "📊", "action": { "type": "nav", "route": "/cheatsheet/vba" } },
     { "id": "b9", "title": "JSON", "icon": "{ }", "action": { "type": "nav", "route": "/cheatsheet/json" } },
-    { "id": "b10", "title": "HTML", "icon": "🌐", "action": { "type": "nav", "route": "/cheatsheet/html" } },
+    { "id": "b10", "title": "HTML", "icon": "</>", "action": { "type": "nav", "route": "/cheatsheet/html" } },
     { "id": "b11", "title": "C/C++", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/cpp" } },
-    { "id": "b12", "title": "Ollama", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/ollama" } },
-    { "id": "b13", "title": "Git", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/git" } }
+    { "id": "b12", "title": "Ollama", "icon": "🦙", "action": { "type": "nav", "route": "/cheatsheet/ollama" } },
+    { "id": "b13", "title": "Git", "icon": "🇬", "action": { "type": "nav", "route": "/cheatsheet/git" } }
   ]
 }

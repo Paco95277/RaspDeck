@@ -4,7 +4,7 @@
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "" } },
 	{ "id": "b2", "title": "Send Data to Linux", "icon": "📝", "action": { "type": "insert", "text": "scp -r <data name> admin@<IP of Linux>:/path\n" } },
-    { "id": "b3", "title": "Batch Script", "icon": "📝", "action": { "type": "nav", "route": "/cheatsheet/windows/batch_script\n" } },
+    { "id": "b3", "title": "Batch Script", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/windows/batch_script\n" } },
     { "id": "b4", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
