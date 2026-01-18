@@ -5,7 +5,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root',
 })
 export class IdleService {
-  private timeoutMs = 10_000; 
+  private timeoutMs = 60_000; 
   private timer?: any;
 
   public idle$ = new BehaviorSubject<boolean>(false);
