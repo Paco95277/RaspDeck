@@ -12,13 +12,11 @@ export class IdleService {
 
   constructor() {
     const reset = () => this.resetTimer();
-
     ['mousemove', 'mousedown', 'touchstart', 'keydown'].forEach(ev =>
       window.addEventListener(ev, reset, { passive: true })
     );
-
     this.resetTimer();
-    }
+  }
 
   public resetTimer() {
     clearTimeout(this.timer);

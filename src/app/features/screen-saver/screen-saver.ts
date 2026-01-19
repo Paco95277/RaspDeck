@@ -1,4 +1,4 @@
-import { Component, inject, signal, OnDestroy, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnDestroy, OnInit } from '@angular/core';
 import { AsyncPipe, DatePipe } from '@angular/common';
 import { IdleService } from '../../core/services/idle-service';
 import holidayJson from '../../../assets/holidays.json';
@@ -13,24 +13,26 @@ import holidayJson from '../../../assets/holidays.json';
 export class ScreenSaver implements OnDestroy, OnInit {
   private idleSrv = inject(IdleService);
   idle$ = this.idleSrv.idle$;
-  now = new Date();
-  private t = window.setInterval(() => (this.now = new Date()), 1000);
+  public currentTime = signal(new Date());
+  private t!: number; //Container for the ID of the Date object
   public holidayNotice: string = "";
+
   wake() {
     this.idleSrv.wake();
   }
-
+ 
   ngOnDestroy() {
     clearInterval(this.t);
   }
 
  ngOnInit() {
-    const currentMonth = this.now.getMonth() + 1; //Month starts from 0
-    const currentDay = this.now.getDate(); // from 1 to 31
-    const currentWeekday = this.now.getDay(); // from 0 to 6
+    const currentMonth = this.currentTime().getMonth() + 1; //Month starts from 0
+    const currentDay = this.currentTime().getDate(); // from 1 to 31
+    const currentWeekday = this.currentTime().getDay(); // from 0 to 6
     const HOLIDAYS = holidayJson.holidays;
-    
     let holidayExpecting : boolean = false;
+
+    this.t = window.setInterval(() => {this.currentTime.set(new Date());}, 1000);
     for (let i = 0; i < HOLIDAYS.length; i++) {
       if (currentMonth === HOLIDAYS[i].month && currentDay <= HOLIDAYS[i].day) {
         //console.log(`Next holiday is in ${HOLIDAYS[i].day - currentDay} day(s)`);
@@ -42,6 +44,6 @@ export class ScreenSaver implements OnDestroy, OnInit {
     if (holidayExpecting === false) {
         //console.log('There is no holiday in the rest of this month')
         this.holidayNotice = "In diesem Monat gibt es keine Feiertage mehr :(";
-      }
+    }
   }
 }
