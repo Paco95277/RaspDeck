@@ -1,6 +1,6 @@
 export type ActionDef =
   | { type: 'open_url'; url: string }
-  | { type: 'shell'; cmd: string }
+  | { type: 'execute'; cmd: string }
   | { type: 'insert'; text: string }
   | { type: 'ws'; topic: string; payload?: unknown }
   | { type: 'http'; path: string; method?: 'GET' | 'POST'; body?: unknown }

@@ -10,7 +10,9 @@ export class ActionRunnerService {
 
   async run(button: ButtonDef): Promise<void> {
     switch (button.action.type) {
-      case 'open_url': {
+      case 'execute': {
+        //button.action.cmd
+        
         return;
       }
       case 'nav': {

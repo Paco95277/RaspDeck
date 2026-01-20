@@ -2,7 +2,7 @@
   "rows": 3,
   "cols": 5,
   "buttons": [
-    { "id": "b1", "title": "Terminal", "icon": "⌨️", "action": { "type": "shell", "cmd": "terminal" } },
+    { "id": "b1", "title": "Starten", "icon": "⌨️", "action": {"type": "execute", "cmd": "start hp counter"} },
     { "id": "b2", "title": "FastAPI/Uvicorn", "icon": "🚀", "action": { "type": "nav", "route": "/cheatsheet/fastapi_uvicorn" } },
     { "id": "b3", "title": "Angular", "icon": "🅰️", "action": { "type": "nav", "route": "/cheatsheet/angular" } },
     { "id": "b4", "title": "Linux", "icon": "🐧", "action": { "type": "nav", "route": "/cheatsheet/linux" } },

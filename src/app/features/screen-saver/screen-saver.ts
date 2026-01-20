@@ -14,15 +14,28 @@ export class ScreenSaver implements OnDestroy, OnInit {
   private idleSrv = inject(IdleService);
   idle$ = this.idleSrv.idle$;
   public currentTime = signal(new Date());
-  private t!: number; //Container for the ID of the Date object
+  private d!: number; //Container for the ID of the Date object
   public holidayNotice: string = "";
+  public scheduleNotice = computed(() => {
+    const h = this.currentTime().getHours();
+    if (h < 11) return "Noch genug Zeit zum Chillen";
+    if (h < 12) return "Zeit zum Essen";
+    if (h < 17) return "Hauptsache Kaffee, Arbeit nebenbei";
+    return "Macht Feierabend";
+  });
+
+  private availableHP = signal(35);
+  numOfBlocks = computed(() => {const n = this.availableHP(); return Array.from({length: n})});
+  private timeoutForOneHP_Ms = 900_000; //The time taken to reduce one HP. Total HP = 35, so reducing all HP to zero wil take 8.45 hours
+  private h!: number; //Container for the ID of the timer object
 
   wake() {
     this.idleSrv.wake();
   }
  
   ngOnDestroy() {
-    clearInterval(this.t);
+    clearInterval(this.d);
+    clearInterval(this.h);
   }
 
  ngOnInit() {
@@ -32,7 +45,9 @@ export class ScreenSaver implements OnDestroy, OnInit {
     const HOLIDAYS = holidayJson.holidays;
     let holidayExpecting : boolean = false;
 
-    this.t = window.setInterval(() => {this.currentTime.set(new Date());}, 1000);
+    this.d = window.setInterval(() => {this.currentTime.set(new Date());}, 10000);
+    this.h = window.setInterval(() => {this.availableHP.update(v => Math.max(0, v-1))}, this.timeoutForOneHP_Ms);
+
     for (let i = 0; i < HOLIDAYS.length; i++) {
       if (currentMonth === HOLIDAYS[i].month && currentDay <= HOLIDAYS[i].day) {
         //console.log(`Next holiday is in ${HOLIDAYS[i].day - currentDay} day(s)`);
@@ -43,7 +58,7 @@ export class ScreenSaver implements OnDestroy, OnInit {
     }
     if (holidayExpecting === false) {
         //console.log('There is no holiday in the rest of this month')
-        this.holidayNotice = "In diesem Monat gibt es keine Feiertage mehr :(";
+        this.holidayNotice = "";
     }
   }
 }

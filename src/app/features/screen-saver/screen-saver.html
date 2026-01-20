@@ -1,8 +1,19 @@
 @if (idle$ | async; as idle) {
   @if (idle) {
+     <div class="ss-hpbar">
+      <div class="ss-blocks">
+        @for (_ of numOfBlocks(); track $index) {
+          <span class="ss-block"></span>
+        }
+      </div>
+    </div>
+    
     <div class="ss-overlay" (click)="wake()">
       <div class="ss-clock">
         {{ currentTime() | date:'HH:mm' }}
+      </div>
+      <div class="ss-schedule">
+        {{ scheduleNotice() }}
       </div>
       <div class="ss-date">
         {{ currentTime() | date:'EEEE dd-MM-yyyy ' }}
