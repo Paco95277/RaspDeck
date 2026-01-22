@@ -19,15 +19,17 @@ export class ScreenSaver implements OnDestroy, OnInit {
   public scheduleNotice = computed(() => {
     const h = this.currentTime().getHours();
     if (h < 11) return "Noch genug Zeit zum Chillen";
-    if (h < 12) return "Zeit zum Essen";
-    if (h < 17) return "Hauptsache Kaffee, Arbeit nebenbei";
-    return "Macht Feierabend";
+    if (h < 12) return "Zeit, die Kantine zu checken";
+    if (h < 17) return "Nicht immer arbeiten, Kaffee nicht vergessen";
+    return "Zeit für Feierabend!";
   });
-
-  private availableHP = signal(35);
+  
+  private hpState = inject(IdleService);
+  availableHP = this.hpState.availableHP;
   numOfBlocks = computed(() => {const n = this.availableHP(); return Array.from({length: n})});
   private timeoutForOneHP_Ms = 900_000; //The time taken to reduce one HP. Total HP = 35, so reducing all HP to zero wil take 8.45 hours
   private h!: number; //Container for the ID of the timer object
+  // public readonly blockColor = "6ee085"; 
 
   wake() {
     this.idleSrv.wake();
@@ -46,7 +48,8 @@ export class ScreenSaver implements OnDestroy, OnInit {
     let holidayExpecting : boolean = false;
 
     this.d = window.setInterval(() => {this.currentTime.set(new Date());}, 10000);
-    this.h = window.setInterval(() => {this.availableHP.update(v => Math.max(0, v-1))}, this.timeoutForOneHP_Ms);
+    this.h = window.setInterval(() => {this.availableHP.update(v => Math.max(0, v-1));}, this.timeoutForOneHP_Ms);
+
 
     for (let i = 0; i < HOLIDAYS.length; i++) {
       if (currentMonth === HOLIDAYS[i].month && currentDay <= HOLIDAYS[i].day) {
@@ -61,4 +64,5 @@ export class ScreenSaver implements OnDestroy, OnInit {
         this.holidayNotice = "";
     }
   }
+
 }

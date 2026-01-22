@@ -2,17 +2,19 @@ import { Injectable, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { ActionDef, ButtonDef } from '../../models/model-define';
 import {UartService} from './uart-service';
+import { IdleService } from './idle-service';
 
 @Injectable({ providedIn: 'root' })
 export class ActionRunnerService {
   private router = inject(Router);
   private uartSrv = inject(UartService);
+  private hpState = inject(IdleService);
 
+  
   async run(button: ButtonDef): Promise<void> {
     switch (button.action.type) {
       case 'execute': {
-        //button.action.cmd
-        
+        this.hpState.resetHP();
         return;
       }
       case 'nav': {
