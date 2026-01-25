@@ -14,7 +14,9 @@ export class ActionRunnerService {
   async run(button: ButtonDef): Promise<void> {
     switch (button.action.type) {
       case 'execute': {
-        this.hpState.resetHP();
+        if (button.action.cmd === 'resetHP') {
+          this.hpState.resetHP();
+        }
         return;
       }
       case 'nav': {

@@ -26,11 +26,11 @@ export class ScreenSaver implements OnDestroy, OnInit {
   
   private hpState = inject(IdleService);
   availableHP = this.hpState.availableHP;
-  numOfBlocks = computed(() => {const n = this.availableHP(); return Array.from({length: n})});
-  private timeoutForOneHP_Ms = 900_000; //The time taken to reduce one HP. Total HP = 35, so reducing all HP to zero wil take 8.45 hours
+  //numOfBlocks = computed(() => {const hp = this.availableHP(); return Array.from({length: Math.floor(hp/10)})});
+  private timeoutOnePersent_Ms = 315_000; //One persent takes 315s, so 100 persent takes 315s*100=31500s=8.75h
   private h!: number; //Container for the ID of the timer object
 
-  wake() {
+  wake() {;
     this.idleSrv.wake();
   }
  
@@ -45,10 +45,8 @@ export class ScreenSaver implements OnDestroy, OnInit {
     const currentWeekday = this.currentTime().getDay(); // from 0 to 6
     const HOLIDAYS = holidayJson.holidays;
     let holidayExpecting : boolean = false;
-
     this.d = window.setInterval(() => {this.currentTime.set(new Date());}, 10000);
-    this.h = window.setInterval(() => {this.availableHP.update(v => Math.max(0, v-1));}, this.timeoutForOneHP_Ms);
-
+    this.h = window.setInterval(() => {this.availableHP.update(v => Math.max(0, v-1));}, this.timeoutOnePersent_Ms);
 
     for (let i = 0; i < HOLIDAYS.length; i++) {
       if (currentMonth === HOLIDAYS[i].month && currentDay <= HOLIDAYS[i].day) {

@@ -10,30 +10,8 @@
   user-select: none;
   touch-action: manipulation;
 }
-.ss-HP{font-size: 100px; font-weight: 600; text-align: center; opacity: .70;}
+.ss-HP{ font-size: 40px; font-weight: 600; text-align: center; opacity: .70;}
 .ss-clock{ font-size: 150px; font-weight: 600; text-align: center; opacity: .70;}
 .ss-schedule{ font-size: 40px; font-weight: 600; text-align: center; opacity: .70;}
 .ss-date{ font-size: 80px; text-align: center; opacity: .70; }
 .ss-holiday{font-size: 40px; text-align: center; opacity: .70; }
-
-.ss-hpbar {
-  position: fixed;
-  top: 70px;
-  left: 50px;
-  right: 8px;
-  z-index: 10000;
-  pointer-events: none;
-}
-
-.ss-blocks{
-  display: flex;
-  gap: 10px; //Gap between two blocks
-}
-// Single block
-.ss-block{
-  width: 20px;
-  height: 20px;
-  background: #6ee085;   
-  border-radius: 5px;
-  opacity: .70;
-}
