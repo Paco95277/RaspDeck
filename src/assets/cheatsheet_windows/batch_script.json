@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/windows" } },
+	{ "id": "b2", "title": "Comment", "icon": "📝", "action": { "type": "insert", "text": "REM This is comment\n" } },
+    { "id": "b3", "title": "Print", "icon": "📝", "action": { "type": "insert", "text": "echo This is a message\n" } },
+    { "id": "b4", "title": "Define a Variable", "icon": "📝", "action": { "type": "insert", "text": "set ^var_name=123^ REM Replace all ^ with double quotation marks\n" } },
+    { "id": "b5", "title": "Print with a Var", "icon": "📝", "action": { "type": "insert", "text": "echo Value of the Var is: %var_name%\n" } },
+    { "id": "b6", "title": "CD", "icon": "📝", "action": { "type": "insert", "text": "cd /d path\ncd /d ^%var_path%^ REM Replace all ^ with double quotation marks\n" } },
+    { "id": "b7", "title": "If Statement", "icon": "📝", "action": { "type": "insert", "text": "if not exist xxx (\n\techo [ERROR] xxx\n\tpause\n\texit /b 1\n) else (\n\techo xxx\n)\n" } },
+    { "id": "b8", "title": "Get Current IP", "icon": "📝", "action": { "type": "insert", "text": "REM Replace all $ with double quotation marks\nsetlocal EnableDelayedExpansion\nset $LOCAL_IP=$\nfor /f $tokens=2 delims=:$ %%A in ('ipconfig ^| findstr /R /C:$IPv4.*$') do (\n\tset $LOCAL_IP=%%A$\n\tgoto :done\n)\nset $LOCAL_IP=%LOCAL_IP: =%$\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/vba" } },
+	{ "id": "b2", "title": "For Loop", "icon": "📝", "action": { "type": "insert", "text": "For i = <start value> To <end value>\n\tcode\n\tExit For 'If you want to exit the loop\nNext i\n" } },
+    { "id": "b3", "title": "For Loop Backwards", "icon": "📝", "action": { "type": "insert", "text": "For i = <end value> To <start value> Step -1\nNext i\n" } },
+    { "id": "b4", "title": "While", "icon": "📝", "action": { "type": "insert", "text": "Do While <condition>\n\tcode\nLoop\n" } },
+    { "id": "b5", "title": "Until", "icon": "📝", "action": { "type": "insert", "text": "Do Until <condition>\n\tcode 'This will be executed at least once\nLoop\n" } },
+    { "id": "b6", "title": "For Each", "icon": "📝", "action": { "type": "insert", "text": "For Each singleTerm In Collection\n\tcode\nNext singleTerm\n" } },
+    { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

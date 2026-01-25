@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/vba" } },
+	{ "id": "b2", "title": "Identify an Entity by Name", "icon": "📝", "action": { "type": "insert", "text": "Dim ent As AcadEntity\nIf (InStr(LCase(ent.Layer), 'layer name') > 0) Then\nEnd If\n" } },
+    { "id": "b3", "title": "Identify an Entity by Type", "icon": "📝", "action": { "type": "insert", "text": "Dim ent As AcadEntity\nIf (TypeOf ent Is <AcadLWPolyline, AcadArc, AcadLine, AcadBlockReference>) Then\nEnd If\n" } },
+    { "id": "b4", "title": "Iterate Layers", "icon": "📝", "action": { "type": "insert", "text": "Dim lay As AcadLayer\nFor Each lay In ThisDrawing.Layers\n\tIf (lay.Name = 'layerName') Then\n\tEnd If\nNext lay\n" } },
+    { "id": "b5", "title": "Add a Layer", "icon": "📝", "action": { "type": "insert", "text": "Dim lay As AcadLayer\nSet lay = ThisDrawing.Layers.Add('newLayerName')\nlay.LayerOn = True\nlay.Freeze = False\n" } },
+    { "id": "b6", "title": "Draw a Line", "icon": "📝", "action": { "type": "insert", "text": "Dim p1(0 To 2) As Double, p2(0 To 2) As Double\np1(0) = x1: p1(1) = y1\np2(0) = x2: p2(1) = y2\nDim l As AcadLine\nSet l = ThisDrawing.ModelSpace.AddLine(p1, p2)\nThisDrawing.Regen acAllViewports\nl.Layer = 'layerName'\n" } },
+    { "id": "b7", "title": "Draw a Retangle", "icon": "📝", "action": { "type": "insert", "text": "Dim pts(0 To 7) As Double\npts(0) = x1: pts(1) = y1\npts(2) = x2: pts(3) = y2\npts(4) = x3: pts(5) = y3\npts(6) = x4: pts(7) = y4\nDim pl As AcadLWPolyline\nSet pl = ThisDrawing.ModelSpace.AddLightWeightPolyline(pts)\npl.Closed = True\npl.Layer = 'layerName'\n" } },
+    { "id": "b8", "title": "Draw a Arc", "icon": "📝", "action": { "type": "insert", "text": "Dim c(0 To 2) As Double: Dim r As Double: Dim startAngle As Double: Dim endAngle As Double\nc(0) = xPos: c(1) = yPos: c(2) = 0: r = Radius: startAngle = ang1: endAngle = ang2\nDim arc As AcadArc\nSet arc = ThisDrawing.ModelSpace.AddArc(c, r, startAngle, endAngle)\nThisDrawing.Regen acAllViewports\narc.Layer = 'layerName'\n" } },
+    { "id": "b9", "title": "Select Objects from Drawing", "icon": "📝", "action": { "type": "insert", "text": "Dim ent As AcadEntity\nDim ss As AcadSelectionSet\nSet ss = ThisDrawing.SelectionSets.Add('LoopSS')\nss.Clear\nThisDrawing.SetVariable 'MODEMACRO', 'Select entities belonging to current loop (shift + click to deselect). RightClick/Enter = finish selection'\nss.SelectOnScreen\nThisDrawing.SetVariable 'MODEMACRO', ''\nIf ss.Count <> 0 Then\n\tFor Each ent In ss\n\t\tcode\n\tNext ent\nEnd If\n" } },
+    { "id": "b10", "title": "Draw a Circle", "icon": "📝", "action": { "type": "insert", "text": "Dim cir As AcadCircle\nDim center(0 To 2) As Double\nDim radius As Double\ncenter(0) = x: center(1) = y: center(2) = 0: radius = r\nSet cir = ThisDrawing.ModelSpace.AddCircle(center, radius)\nThisDrawing.Regen acAllViewports\narc.Layer = 'layerName'\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

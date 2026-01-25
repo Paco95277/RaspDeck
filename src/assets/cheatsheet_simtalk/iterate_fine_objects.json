@@ -1,0 +1,23 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/simtalk" } },
+	{ "id": "b2", "title": "Iterate Objects in Frame", "icon": "📝", "action": { "type": "insert", "text": "var numOfNodes : integer :=  <frame path>.numnodes\nvar obj : object\nfor var i := 1 to numOfNodes\n\tobj := <frame path>.node(i)\n\tif obj.internalClassType = 'Conveyor'\n" } },
+	{ "id": "b3", "title": "Check If Object Exists", "icon": "📝", "action": { "type": "insert", "text": "print existsobject('object name')\nprint existsobject('~.Model' + 'object name') --If object not in current frame, add the path\nprint existsobject(to_str(PathToModel) + 'object name') --Use variable as path\n" } },
+	{ "id": "b4", "title": "Delete an Object", "icon": "📝", "action": { "type": "insert", "text": "objectName.deleteObject\n" } },
+	{ "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+	
+
+  ]
+}

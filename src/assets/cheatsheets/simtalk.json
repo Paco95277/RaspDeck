@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "" } },
+    { "id": "b2", "title": "Variables", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/variables" } },
+    { "id": "b3", "title": "Operators", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/operators" } },
+    { "id": "b4", "title": "Functions", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/functions" } },
+    { "id": "b5", "title": "Array", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/array" } },
+    { "id": "b6", "title": "Object", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/object" } },
+    { "id": "b7", "title": "Input Output", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/input_output" } },
+    { "id": "b8", "title": "Loop", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/loop" } },
+    { "id": "b9", "title": "Iterate/Find Objects", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/iterate_find_objects" } },
+    { "id": "b10", "title": "Table", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/table" } },
+    { "id": "b11", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/" } },
+    { "id": "b12", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/" } },
+    { "id": "b13", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/" } },
+    { "id": "b14", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/" } },
+    { "id": "b15", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/simtalk/" } }
+  ]
+}

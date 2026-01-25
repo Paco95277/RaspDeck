@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/vba" } },
+	{ "id": "b2", "title": "Simple MsgBox", "icon": "📝", "action": { "type": "insert", "text": "MsgBox 'Text' & variable & 'Text'\n" } },
+    { "id": "b3", "title": "Prompt", "icon": "📝", "action": { "type": "insert", "text": "ThisDrawing.Utility.Prompt 'Prompt text'\n" } },
+    { "id": "b4", "title": "Get User Input", "icon": "📝", "action": { "type": "insert", "text": "Dim userInput As String = ThisDrawing.Utility.GetString(True, 'prompt text')\n" } },
+    { "id": "b5", "title": "Get User Yes/No Instruction", "icon": "📝", "action": { "type": "insert", "text": "Dim userYesNo As VbMsgBoxResult\nuserYesNo = MsgBox('Prompt text: ' & variable & 'Prompt text', vbYesNo)\nIf userYesNo = vbYes Then\nElseIf userYesNo = vbNo Then\nEnd If\n" } },
+    { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

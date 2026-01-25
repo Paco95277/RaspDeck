@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/vba" } },
+	{ "id": "b2", "title": "Option Explicit", "icon": "📝", "action": { "type": "insert", "text": "Option Explicit 'Let VBA check the validation of every variable\n" } },
+    { "id": "b3", "title": "Set Error Header", "icon": "📝", "action": { "type": "insert", "text": "On Error GoTo ErrHandler 'Put this on the code beginning\n" } },
+    { "id": "b4", "title": "Raise an Error", "icon": "📝", "action": { "type": "insert", "text": "If something goes wrong Then\n\tErr.Raise ERROR_CODE, <source>, <prompt> 'Define your own error code constant. Source is the function/sub that raises the error. Write the details of the error on prompt\nEnd If\n" } },
+    { "id": "b5", "title": "Edit Error Handler", "icon": "📝", "action": { "type": "insert", "text": "ErrHandler:\nDim errNum As Long\nerrNum = Err.Number\nIf errNum = ERROR_CODE Then\n\tMsgBox 'An error occured: ' & Err.Description, vbExclamation\n\tExit Sub\nEnd If\nMsgBox 'Error ' & errNum & ': ' & Err.Description, vbCritical 'For others errors\n" } },
+    { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

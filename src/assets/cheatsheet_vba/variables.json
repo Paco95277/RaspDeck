@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/vba" } },
+	{ "id": "b2", "title": "Simple Variable", "icon": "📝", "action": { "type": "insert", "text": "Dim x As Integer/Long/Boolean/String\n" } },
+    { "id": "b3", "title": "Define a Collection", "icon": "📝", "action": { "type": "insert", "text": "Dim coll As Collection\nSet coll = New Collection\n" } },
+    { "id": "b4", "title": "Add, Remove to Collection", "icon": "📝", "action": { "type": "insert", "text": "coll.Add newTerm\ncoll.Remove i 'Remove the i-th term\n" } },
+    { "id": "b5", "title": "Iterate a Collection", "icon": "📝", "action": { "type": "insert", "text": "For i = 1 To coll.Count\nNext i\n" } },
+    { "id": "b6", "title": "Define a Variant", "icon": "📝", "action": { "type": "insert", "text": "Dim var As Variant\nvar(i) 'Access the var\n" } },
+    { "id": "b7", "title": "Resize a Variant", "icon": "📝", "action": { "type": "insert", "text": "ReDim var(num) 'The var will have a new size of <num>. All contents get lost\n" } },
+    { "id": "b8", "title": "Resize Variant Content Unchanged", "icon": "📝", "action": { "type": "insert", "text": "ReDim Preserve var(num)\nReDim Preserve var(UBound(var) + 1) 'Only add one pos\n" } },
+    { "id": "b9", "title": "Define an Array", "icon": "📝", "action": { "type": "insert", "text": "Dim arr(<start> To <end>) As Long/String/Integer\n" } },
+    { "id": "b10", "title": "Check If Obj Nothing", "icon": "📝", "action": { "type": "insert", "text": "If obj Is Nothing Then\nEnd IF\n" } },
+    { "id": "b11", "title": "Check If Str Empty", "icon": "📝", "action": { "type": "insert", "text": "If str = '' Then\nEnd IF\n" } },
+    { "id": "b12", "title": "Check If Variant Empty", "icon": "📝", "action": { "type": "insert", "text": "If IsEmpty(var) Then\nEnd IF\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

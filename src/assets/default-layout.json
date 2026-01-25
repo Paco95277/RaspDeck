@@ -14,6 +14,7 @@
     { "id": "b10", "title": "HTML", "icon": "</>", "action": { "type": "nav", "route": "/cheatsheet/html" } },
     { "id": "b11", "title": "C/C++", "icon": "𝐂", "action": { "type": "nav", "route": "/cheatsheet/cpp" } },
     { "id": "b12", "title": "Ollama", "icon": "🦙", "action": { "type": "nav", "route": "/cheatsheet/ollama" } },
-    { "id": "b13", "title": "Git", "icon": "🇬", "action": { "type": "nav", "route": "/cheatsheet/git" } }
+    { "id": "b13", "title": "Git", "icon": "🇬", "action": { "type": "nav", "route": "/cheatsheet/git" } },
+	{ "id": "b14", "title": "Simtalk", "icon": "S", "action": { "type": "nav", "route": "/cheatsheet/simtalk" } }
   ]
 }

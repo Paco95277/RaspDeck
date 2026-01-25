@@ -1,0 +1,23 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/simtalk" } },
+	{ "id": "b2", "title": "Create a Global Table", "icon": "📝", "action": { "type": "insert", "text": "var tableName : object\ntableName := .InformationFlow.DataTable.duplicate(<path>, 'tableName')\ntableName.setPosition(<xpos>, <ypos>)\n" } },
+	{ "id": "b3", "title": "Enable Table Column", "icon": "📝", "action": { "type": "insert", "text": "tableName.ColumnIndex := true\n" } },
+	{ "id": "b4", "title": "Set Header Datatype", "icon": "📝", "action": { "type": "insert", "text": "tableName.setDataType(col, '<datatype>')\n" } },
+	{ "id": "b5", "title": "Edit Header", "icon": "📝", "action": { "type": "insert", "text": "tableName[col, 0] = 'header name'\n" } },
+	{ "id": "b6", "title": "Create Local Table", "icon": "📝", "action": { "type": "insert", "text": "var localTable : table[string, real, integer]\nlocalTable.create\n" } },
+	{ "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+	
+
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/simtalk" } },
+	{ "id": "b2", "title": "If Else", "icon": "📝", "action": { "type": "insert", "text": "if <condition>\nelseif <condition>\nend\n" } },
+	{ "id": "b3", "title": "Switch Case", "icon": "📝", "action": { "type": "insert", "text": "switch <exp>\n\tcase <value>\n\telse\nend\n" } },
+	{ "id": "b4", "title": "While", "icon": "📝", "action": { "type": "insert", "text": "while <condition>\nend\n" } },
+	{ "id": "b5", "title": "For", "icon": "📝", "action": { "type": "insert", "text": "for var <var> := <start value> to <end value>\nnext\n" } },
+	{ "id": "b6", "title": "Repeat", "icon": "📝", "action": { "type": "insert", "text": "repeat\n\tstatement\nuntil <exit condition>\n" } },
+	{ "id": "b7", "title": "Exit a Loop", "icon": "📝", "action": { "type": "insert", "text": "exitloop\n" } },
+	{ "id": "b8", "title": "Continue a Loop", "icon": "📝", "action": { "type": "insert", "text": "continue\n" } },
+	{ "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+	
+
+  ]
+}

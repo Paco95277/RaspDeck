@@ -29,7 +29,6 @@ export class ScreenSaver implements OnDestroy, OnInit {
   numOfBlocks = computed(() => {const n = this.availableHP(); return Array.from({length: n})});
   private timeoutForOneHP_Ms = 900_000; //The time taken to reduce one HP. Total HP = 35, so reducing all HP to zero wil take 8.45 hours
   private h!: number; //Container for the ID of the timer object
-  // public readonly blockColor = "6ee085"; 
 
   wake() {
     this.idleSrv.wake();

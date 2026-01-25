@@ -3,19 +3,19 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "" } },
-	{ "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b3", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b4", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+	{ "id": "b2", "title": "Variables", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/variables" } },
+    { "id": "b3", "title": "Condition", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/condition" } },
+    { "id": "b4", "title": "MsgBox", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/msgbox_prompt" } },
+    { "id": "b5", "title": "Error Handling", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/error_handling" } },
+    { "id": "b6", "title": "Loop", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/loop" } },
+    { "id": "b7", "title": "Data Collection", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/data_collection" } },
+    { "id": "b8", "title": "Acad COM Interfaces", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/acad_com_interfaces" } },
+    { "id": "b9", "title": "String", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/string" } },
+    { "id": "b10", "title": "Excel API", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/excel_api" } },
+    { "id": "b11", "title": "Operators", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/operators" } },
+    { "id": "b12", "title": "Functions", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/functions" } },
+    { "id": "b13", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/" } },
+    { "id": "b14", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/" } },
+    { "id": "b15", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/" } }
   ]
 }
