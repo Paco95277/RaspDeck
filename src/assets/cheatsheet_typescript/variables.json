@@ -4,7 +4,7 @@
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
 	  { "id": "b2", "title": "Check Type", "icon": "📝", "action": { "type": "insert", "text": "console.log(typeof varName)\n" } },
-    { "id": "b3", "title": "Define a Simple Variable", "icon": "📝", "action": { "type": "insert", "text": "let varName: <string, number, boolean, string[], number[]> = <value>;\n" } },
+    { "id": "b3", "title": "Simple Variable", "icon": "📝", "action": { "type": "insert", "text": "let varName: <string, number, boolean, string[], number[]> = <value>;\n" } },
     { "id": "b4", "title": "Type Any/Unknown", "icon": "📝", "action": { "type": "insert", "text": "let data: any // Compiler will skip type checking. Use this if the type is dynamic and unknown now\nlet data: unknown // More type-safety. Use this for data from external sources(APIs, user input...))\n" } },
     { "id": "b5", "title": "Union Type Undefined/Null", "icon": "📝", "action": { "type": "insert", "text": "let varName: <type> | undefined // Type of varName can be <type> or undefined, which means, this variable might not be\nassigned with a value yet, this will be done later (e.g. by ngOnInit)\nlet varName: <type> | null = null // Use this if the variable is actively cleared or reset during runtime\n" } },
     { "id": "b6", "title": "Non-Empty Assertion", "icon": "📝", "action": { "type": "insert", "text": "user!.name // Tell the compiler that user is absolutly not empty\n" } },

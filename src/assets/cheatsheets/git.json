@@ -3,8 +3,8 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "" } },
-	  { "id": "b2", "title": "Generate SSH Key", "icon": "📝", "action": { "type": "insert", "text": "ssh-keygen -t ed25519 -C <your email>\n" } },
-    { "id": "b3", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b2", "title": "Generate SSH Key", "icon": "📝", "action": { "type": "insert", "text": "ssh-keygen -t ed25519 -C <your email>\n" } },
+    { "id": "b3", "title": "Clone Incl Submodule", "icon": "📝", "action": { "type": "insert", "text": "git clone --recurse-submodules --remote-submodules <repo-url>\n" } },
     { "id": "b4", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },

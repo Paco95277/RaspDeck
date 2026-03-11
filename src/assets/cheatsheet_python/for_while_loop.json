@@ -3,7 +3,7 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
-	  { "id": "b2", "title": "Loop a List", "icon": "📝", "action": { "type": "insert", "text": "for x in mylist:\n" } },
+	{ "id": "b2", "title": "Loop a List", "icon": "📝", "action": { "type": "insert", "text": "for x in mylist:\n" } },
     { "id": "b3", "title": "Loop a String", "icon": "📝", "action": { "type": "insert", "text": "for x in 'string':\n" } },
     { "id": "b4", "title": "Loop with Range", "icon": "📝", "action": { "type": "insert", "text": "for x in range(<num1>, <num2>, <num3>): # Range starts from <num1> (optional, 0 if not provided), increases by <num3> (optional, 1 if not provided) and ends with <num2>-1\n" } },
     { "id": "b5", "title": "While Loop", "icon": "📝", "action": { "type": "insert", "text": "while expression:\n" } }

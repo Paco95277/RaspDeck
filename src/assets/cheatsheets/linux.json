@@ -3,8 +3,8 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "" } },
-	  { "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
-    { "id": "b3", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+	{ "id": "b2", "title": "Open Bash", "icon": "📝", "action": { "type": "insert", "text": "nano ~/.bashrc\n" } },
+    { "id": "b3", "title": "Create Alias", "icon": "📝", "action": { "type": "insert", "text": "alias shortname='command'\n" } },
     { "id": "b4", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },

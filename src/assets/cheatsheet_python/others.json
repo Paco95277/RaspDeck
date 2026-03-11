@@ -3,6 +3,19 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
-	  { "id": "b2", "title": "Ignore Type Check", "icon": "📝", "action": { "type": "insert", "text": "# type: ignore[attr-defined]\n" } }
+	{ "id": "b2", "title": "Ignore Type Check", "icon": "📝", "action": { "type": "insert", "text": "# type: ignore[attr-defined]\n" } },
+	{ "id": "b3", "title": "Build Py App", "icon": "📝", "action": { "type": "insert", "text": "python -m pyinstaller -y --noconfirm --clean --onedir --name yourname yourcode.py\n" } },
+	{ "id": "b4", "title": "Create Venv", "icon": "📝", "action": { "type": "insert", "text": "python -m venv .venv\n" } },
+	{ "id": "b5", "title": "Activate Venv", "icon": "📝", "action": { "type": "insert", "text": ".\\venv\\Scripts\\activate\n" } },
+	{ "id": "b6", "title": "Deactivate Venv", "icon": "📝", "action": { "type": "insert", "text": "deactivate\n" } },
+	{ "id": "b7", "title": "Check Py Version", "icon": "📝", "action": { "type": "insert", "text": "python --version\n" } },
+	{ "id": "b8", "title": "Check Py Path", "icon": "📝", "action": { "type": "insert", "text": "python -c 'import sys; print(sys.executable)'\n" } },
+	{ "id": "b9", "title": "Check Installed Py", "icon": "📝", "action": { "type": "insert", "text": "py --list\n" } },
+	{ "id": "b10", "title": "Set Default Py Version", "icon": "📝", "action": { "type": "insert", "text": "py --default <version>\n" } },
+	{ "id": "b11", "title": "Check Installed Pkg", "icon": "📝", "action": { "type": "insert", "text": "python -m pip list\n" } },
+	{ "id": "b12", "title": "Install Pkg", "icon": "📝", "action": { "type": "insert", "text": "python -m pip install xxx\n" } },
+	{ "id": "b13", "title": "Uninstall Pkg", "icon": "📝", "action": { "type": "insert", "text": "python -m pip uninstall xxx\n" } },
+	{ "id": "b14", "title": "Export Requirements", "icon": "📝", "action": { "type": "insert", "text": "python -m pip freeze > requirements.txt\n" } },
+	{ "id": "b15", "title": "Install Requirements", "icon": "📝", "action": { "type": "insert", "text": "python -m pip install -r requirements.txt\n" } }
   ]
 }

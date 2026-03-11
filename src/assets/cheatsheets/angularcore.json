@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/angular" } },
+	{ "id": "b2", "title": "Signal", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/angularcore/signal\n" } },
+    { "id": "b3", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b4", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b5", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b6", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b7", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b8", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b9", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b10", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b11", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b12", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b13", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b14", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } },
+    { "id": "b15", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "\n" } }
+  ]
+}

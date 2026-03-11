@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
+	{ "id": "b2", "title": "Simple For", "icon": "📝", "action": { "type": "insert", "text": "for (let i = 0; i < 10; i++) {\n\t//code\n}\n" } },
+    { "id": "b3", "title": "For In", "icon": "📝", "action": { "type": "insert", "text": "let person = { name: 'John', age: 30, city: 'New York' }\nfor (let key in person) {\n\t${key}, ${person[key]\n}\n" } },
+    { "id": "b4", "title": "For Of", "icon": "📝", "action": { "type": "insert", "text": "let numbers: number[] = [1, 2, 3, 4, 5]\nfor (let num of numbers) {\n\tconsole.log(num);\n}\n" } },
+    { "id": "b5", "title": "For Each", "icon": "📝", "action": { "type": "insert", "text": "let numbers: number[] = [1, 2, 3, 4, 5]\nnumbers.forEach((num, index<optional>) => {\n${index}, ${num}\n})\n" } },
+    { "id": "b6", "title": "While", "icon": "📝", "action": { "type": "insert", "text": "while(condition) {\n\t//code\n}\n" } },
+    { "id": "b7", "title": "Do While", "icon": "📝", "action": { "type": "insert", "text": "do {\n\t//Run the code at least once\n} while (condition)\n" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

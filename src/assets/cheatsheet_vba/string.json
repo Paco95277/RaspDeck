@@ -7,7 +7,7 @@
     { "id": "b3", "title": "Check String Content", "icon": "📝", "action": { "type": "insert", "text": "If InStr(str, 'text') > 0 Then 'Check if str contains 'text'\n" } },
     { "id": "b4", "title": "Set Upper/Lower Case", "icon": "📝", "action": { "type": "insert", "text": "UCase(str), LCase(str)\n" } },
     { "id": "b5", "title": "String Brake", "icon": "📝", "action": { "type": "insert", "text": "'This is a' & _ 'long text'\n" } },
-    { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b6", "title": "Combine Mulp Strings", "icon": "📝", "action": { "type": "insert", "text": "str1 & str2\n" } },
     { "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },

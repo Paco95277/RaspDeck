@@ -18,10 +18,10 @@ export class ScreenSaver implements OnDestroy, OnInit {
   public holidayNotice: string = "";
   public scheduleNotice = computed(() => {
     const h = this.currentTime().getHours();
-    if (h < 11) return "Noch genug Zeit zum Chillen";
-    if (h < 12) return "Zeit, die Kantine zu checken";
-    if (h < 17) return "Nicht immer arbeiten, Kaffee nicht vergessen";
-    return "Zeit für Feierabend!";
+    if (h < 11) return "Noch genug Zeit zum Chillen 😊";
+    if (h < 12) return "Zeit, die Kantine zu checken 😋🍽️";
+    if (h < 17) return "Nicht immer arbeiten, Kaffee nicht vergessen 🥐☕";
+    return "Zeit für Feierabend ⏰";
   });
   
   private hpState = inject(IdleService);

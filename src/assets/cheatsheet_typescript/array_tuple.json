@@ -3,7 +3,7 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
-	  { "id": "b2", "title": "Define a Array", "icon": "📝", "action": { "type": "insert", "text": "const arrName: <type>[] = [xxx]; // Add the keyword readyonly to prevent it from being changed\n" } },
+	{ "id": "b2", "title": "Define a Array", "icon": "📝", "action": { "type": "insert", "text": "const arrName: <type>[] = [xxx]; // Add the keyword readyonly to prevent it from being changed\n" } },
     { "id": "b3", "title": "Check Type Array", "icon": "📝", "action": { "type": "insert", "text": "console.log(arrName instanceof Array) // Check if it is an instance of an array\n" } },
     { "id": "b4", "title": "Convert to String", "icon": "📝", "action": { "type": "insert", "text": "arrName.toString(); // Return a string of comma separated array values\narray.join('<separator>') // Return a string with the specified separator \n" } },
     { "id": "b5", "title": "Length of Array", "icon": "📝", "action": { "type": "insert", "text": "arrName.length // Return number of elements \n" } },
@@ -15,7 +15,7 @@
     { "id": "b11", "title": "Sort/Reverse a Array", "icon": "📝", "action": { "type": "insert", "text": "arrName.sort(); // Sort the elements alphabetically\narrName.reverse(); // Reverse the elements\n" } },
     { "id": "b12", "title": "Define a Tuple", "icon": "📝", "action": { "type": "insert", "text": "let tupleName: [number, boolean, string]; // A Tuple is a typed array\ntupleName = [5, false, 'text'];\n" } },
     { "id": "b13", "title": "Define a Readonly Tuple", "icon": "📝", "action": { "type": "insert", "text": "const tupleName: readonly [<type>] = [<value>]\n" } },
-    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "Array From", "icon": "📝", "action": { "type": "insert", "text": "arrName: <type>[] = Array.from({length: <num>}, () => ({<mem1>: <value>, <mem2>: <value>}));\n" } },
     { "id": "b15", "title": "Iteration Methods", "icon": "📝", "action": { "type": "http", "path": "\n" } }
   ]
 }

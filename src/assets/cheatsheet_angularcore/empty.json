@@ -2,9 +2,9 @@
   "rows": 3,
   "cols": 5,
   "buttons": [
-    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/vba" } },
-	{ "id": "b2", "title": "Define a Function", "icon": "📝", "action": { "type": "insert", "text": "Function funcName(parm As <type>) As <return type>\n\tSet funcName = return value\n\tExit Function\nEnd Function\n" } },
-    { "id": "b3", "title": "More About Functions", "icon": "🔗", "action": { "type": "open_url", "url": "https://learn.microsoft.com/de-de/dotnet/visual-basic/language-reference/functions/" } },
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
+	{ "id": "b2", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b3", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b4", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },

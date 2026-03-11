@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
+	{ "id": "b2", "title": "Define Simple Type", "icon": "📝", "action": { "type": "insert", "text": "type customType = <type>;\nconst varName: customType = <value>;\n" } },
+    { "id": "b3", "title": "Define Object Type", "icon": "📝", "action": { "type": "insert", "text": "type customType = {\n\tvar1: <type>,\n\tvar2: <type>\n}\nconst varName: customType = {\n\tvar1: <value>,\n\tvar2: <value>\n};\n" } },
+    { "id": "b4", "title": "Define Interface", "icon": "📝", "action": { "type": "insert", "text": "interface customInterface {\n\tvar1: <type>;\n\tvar2: <type>;\n}\n" } },
+    { "id": "b5", "title": "Extend Interface", "icon": "📝", "action": { "type": "insert", "text": "interface BaseInt{some items}\ninterface ExtInt extends BaseInt{additional items}\nconst varName: ExtInt = {all items}\n" } },
+    { "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b7", "title": "Define a Class", "icon": "📝", "action": { "type": "insert", "text": "class className {\n\tmember: <type>;\n}\nconst inst = new className();\ninst.member = <value>;\n" } },
+    { "id": "b8", "title": "Const Var", "icon": "📝", "action": { "type": "insert", "text": "const varName = <value>; // Const means the var wont be assigned to another value\n" } },
+    { "id": "b9", "title": "Readonly", "icon": "📝", "action": { "type": "insert", "text": "private readonly varName = <value>; // Define inside a class. If this is an array or object, its content can still be changed.\nAdd 'as const' in this case at the end'\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}

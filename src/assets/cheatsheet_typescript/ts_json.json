@@ -3,7 +3,7 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/typescript" } },
-	  { "id": "b2", "title": "Import JSON", "icon": "📝", "action": { "type": "insert", "text": "import <json file name> from '/path';\n" } },
+	{ "id": "b2", "title": "Import JSON", "icon": "📝", "action": { "type": "insert", "text": "import <json file name> from '/path';\n" } },
     { "id": "b3", "title": "Access JSON Items", "icon": "📝", "action": { "type": "insert", "text": "<json file name>.item\n" } },
     { "id": "b4", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },

@@ -14,8 +14,8 @@
     { "id": "b10", "title": "Excel API", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/excel_api" } },
     { "id": "b11", "title": "Operators", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/operators" } },
     { "id": "b12", "title": "Functions", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/functions" } },
-    { "id": "b13", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/" } },
-    { "id": "b14", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/" } },
+    { "id": "b13", "title": "UserForm", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/userform" } },
+    { "id": "b14", "title": "Type Conversion", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/typeconversion" } },
     { "id": "b15", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/vba/" } }
   ]
 }

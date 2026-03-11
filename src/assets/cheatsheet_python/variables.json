@@ -3,9 +3,10 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
-	  { "id": "b2", "title": "Get Type", "icon": "📝", "action": { "type": "insert", "text": "type(var)\n" } },
+	{ "id": "b2", "title": "Get Type", "icon": "📝", "action": { "type": "insert", "text": "type(var)\n" } },
     { "id": "b3", "title": "Single Double Quotes", "icon": "📝", "action": { "type": "insert", "text": "# Single quotes are the same as double in Python\n" } },
     { "id": "b4", "title": "Assign Multiple Values", "icon": "📝", "action": { "type": "insert", "text": "x, y, z = 'Orange', 'Banana', 'Cherry'\n x = y = z = 'Orange'\n" } },
-    { "id": "b5", "title": "Keyword Global", "icon": "📝", "action": { "type": "insert", "text": "def myfunc():\n\tglobal x # The variable x can now be used outside the function\n" } }
+    { "id": "b5", "title": "Keyword Global", "icon": "📝", "action": { "type": "insert", "text": "def myfunc():\n\tglobal x # The variable x can now be used outside the function\n" } },
+	{ "id": "b6", "title": "Decimal Round", "icon": "📝", "action": { "type": "insert", "text": "round(<var with type float>, <num of decimal>)\n" } }
   ]
 }

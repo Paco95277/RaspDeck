@@ -3,10 +3,10 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/html" } },
-	{ "id": "b2", "title": "More About @for", "icon": "🔗", "action": { "type": "open_url", "url": "https://blog.angular-university.io/angular-for/" } },
-	{ "id": "b3", "title": "Simple @for", "icon": "📝", "action": { "type": "insert", "text": "@for (item of items; track $index) {\n\t//content\n}\n" } },
-	{ "id": "b4", "title": "@for with Var", "icon": "📝", "action": { "type": "insert", "text": "@for (item of items; let i = $index; track i) {\n\t//content\n}\n" } },
-	{ "id": "b5", "title": "@for with Attr", "icon": "📝", "action": { "type": "insert", "text": "@for (item of items; track item.attr) {\n\t//content\n}\n\n" } },
+	{ "id": "b2", "title": "Simple ngFor", "icon": "📝", "action": { "type": "insert", "text": "<tr *ngFor='oneTerm in terms'>\n\t<td> {{oneTerm.attr}}</td>\n</tr>\n" } },
+	{ "id": "b3", "title": "ngFor with Index", "icon": "📝", "action": { "type": "insert", "text": "<tr *ngFor='let oneTerm in terms; let i = index'>\n\t<td>{{oneTerm.attr}}</td>\n\t<td>{{i}}</td>\n</tr>\n" } },
+	{ "id": "b4", "title": "More About ngFor", "icon": "🔗", "action": { "type": "open_url", "url": "https://blog.angular-university.io/angular-2-ngfor/" } },
+	{ "id": "b5", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
 	{ "id": "b6", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
 	{ "id": "b7", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
 	{ "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
@@ -17,5 +17,6 @@
 	{ "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
 	{ "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
 	{ "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+
   ]
 }

@@ -8,14 +8,14 @@
     { "id": "b4", "title": "Console", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/console" } },
     { "id": "b5", "title": "Array/Tuple", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/array_tuple" } },
     { "id": "b6", "title": "Object", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/object" } },
-    { "id": "b7", "title": "Enum", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/enum" } },
-    { "id": "b8", "title": "Type/Interface", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/type_interface" } },
-    { "id": "b9", "title": "Class", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/class" } },
+    { "id": "b7", "title": "Enum/Record", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/enum_record" } },
+    { "id": "b8", "title": "Type/Interface/Class", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/type_interface_class" } },
+    { "id": "b9", "title": "TryCatch", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/trycatch" } },
     { "id": "b10", "title": "Generics", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/generics" } },
     { "id": "b11", "title": "If Else", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/if_else" } },
-    { "id": "b12", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
-    { "id": "b13", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
-    { "id": "b14", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } },
-    { "id": "b15", "title": "", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/" } }
+    { "id": "b12", "title": "LocalStorge", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/localstorge" } },
+    { "id": "b13", "title": "Timer", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/timer" } },
+    { "id": "b14", "title": "Loop", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/loop" } },
+    { "id": "b15", "title": "TS Json", "icon": "🧭", "action": { "type": "nav", "route": "/cheatsheet/typescript/ts_json" } }
   ]
 }

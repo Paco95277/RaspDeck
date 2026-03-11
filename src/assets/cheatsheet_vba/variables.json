@@ -14,7 +14,7 @@
     { "id": "b10", "title": "Check If Obj Nothing", "icon": "📝", "action": { "type": "insert", "text": "If obj Is Nothing Then\nEnd IF\n" } },
     { "id": "b11", "title": "Check If Str Empty", "icon": "📝", "action": { "type": "insert", "text": "If str = '' Then\nEnd IF\n" } },
     { "id": "b12", "title": "Check If Variant Empty", "icon": "📝", "action": { "type": "insert", "text": "If IsEmpty(var) Then\nEnd IF\n" } },
-    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "Check If Is Array", "icon": "📝", "action": { "type": "insert", "text": "IsArray(varname) 'Return boolean\n" } },
     { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
     { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
   ]

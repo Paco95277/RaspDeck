@@ -7,7 +7,7 @@
             <button class="tile" (click)="pressed.emit(b)" [disabled]="b.action.type === 'none'">
                 <div class="icon">{{ b.icon ?? '⬛' }}</div>
                 <div class="title">{{ b.title }}</div>
-                <div class="sub">{{ b.action.type }}</div>
+                <!-- <div class="sub">{{ b.action.type }}</div> -->
             </button>
         }
     </div>

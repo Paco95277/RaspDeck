@@ -3,7 +3,7 @@
   "cols": 5,
   "buttons": [
     { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/python" } },
-	  { "id": "b2", "title": "Try Except", "icon": "📝", "action": { "type": "insert", "text": "try:\n\tcode\nexcept:\n\tSomething went wrong\nelse:\n\tNothing went wrong\nfinally:\n\tWill be executed regardless if an error occured or not\n" } },
+	{ "id": "b2", "title": "Try Except", "icon": "📝", "action": { "type": "insert", "text": "try:\n\tcode\nexcept:\n\tSomething went wrong\nelse:\n\tNothing went wrong\nfinally:\n\tWill be executed regardless if an error occured or not\n" } },
     { "id": "b3", "title": "ValueError", "icon": "📝", "action": { "type": "insert", "text": "try:\n\tx = int('abc')\nexcept ValueError:\n\tprint('Unvalid value')\n" } },
     { "id": "b4", "title": "TypeError", "icon": "📝", "action": { "type": "insert", "text": "# Incompatible parameter type\n" } },
     { "id": "b5", "title": "IndexError", "icon": "📝", "action": { "type": "insert", "text": "listA = [1, 2, 3]\nprint(listA[4]) # Index out of bounds\n" } },

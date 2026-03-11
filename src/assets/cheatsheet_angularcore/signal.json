@@ -1,0 +1,21 @@
+{
+  "rows": 3,
+  "cols": 5,
+  "buttons": [
+    { "id": "b1", "title": "Return", "icon": "◀", "action": {"type": "nav", "route": "/cheatsheet/angular/angularcore" } },
+	{ "id": "b2", "title": "Import Signal", "icon": "📝", "action": { "type": "insert", "text": "import { signal, computed, effect } from '@angular/core';\n" } },
+	{ "id": "b3", "title": "Define a Signal", "icon": "📝", "action": { "type": "insert", "text": "mySignal = signal<type>(<init value>);\n" } },
+    { "id": "b4", "title": "Computed With Signal", "icon": "📝", "action": { "type": "insert", "text": "//Do not write a Signal in computed\ncalcMySignal = computed(() => {const s = mySignal() + 1; return s;});\n" } },
+    { "id": "b5", "title": "Write a Signal", "icon": "📝", "action": { "type": "insert", "text": "mySignal.set(<value>);\n" } },
+    { "id": "b6", "title": "Output a Signal", "icon": "📝", "action": { "type": "insert", "text": "console.log(mySignal());\n" } },
+    { "id": "b7", "title": "Effect", "icon": "📝", "action": { "type": "insert", "text": "//Do the side effects here\neffect(() => {mySignal()});\n" } },
+    { "id": "b8", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b9", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b10", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b11", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b12", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b13", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b14", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } },
+    { "id": "b15", "title": "", "icon": "📝", "action": { "type": "insert", "text": "\n" } }
+  ]
+}
