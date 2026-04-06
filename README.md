@@ -8,4 +8,4 @@ The PCB was designed using Kicad. The housing is 3D-printed and was designed usi
 
 
 ## Schematic
-<img width="400" height="110" alt="Schematic_RaspDeck" src="https://github.com/user-attachments/assets/b3ab938c-45c7-489b-bd36-c26361660ad9" />
+<img width="500" height="210" alt="Schematic_RaspDeck" src="https://github.com/user-attachments/assets/b3ab938c-45c7-489b-bd36-c26361660ad9" />
