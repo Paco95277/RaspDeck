@@ -7,10 +7,10 @@ This project consists primarily of a Raspberry Pi 5, a Raspberry Pi Pico, and a 
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/12e45e23-aa42-49db-87a8-d510ff0cdef4" />
 
 ## Code templates (Python)
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/cf268ce5-0c62-4922-98f6-ce0f18a9feec" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/cf268ce5-0c62-4922-98f6-ce0f18a9feec" />
 
 ## Automatically fill in the input field
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/46db1c2d-a816-41bd-a9ff-80ec2b652d69" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/46db1c2d-a816-41bd-a9ff-80ec2b652d69" />
 
 ## PCB
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/03e5b968-d44f-4833-8d78-e37ebe1af5f5" />
