@@ -1,59 +1,19 @@
-# MacroPanel
+# RaspDeck
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+This project consists primarily of a Raspberry Pi 5, a Raspberry Pi Pico, and a touchscreen. Its purpose is to create a Stream Deck-style device for programmers, allowing them to save various commonly used code snippets and command templates so they can quickly paste them into text fields on their PCs (tested in Windows 11) when needed. The PCB was designed using Kicad. The housing is 3D-printed and was designed using Freecad.
 
-## Development server
+## Overview
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/12e45e23-aa42-49db-87a8-d510ff0cdef4" />
 
-To start a local development server, run:
+## Code templates (Python)
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/cf268ce5-0c62-4922-98f6-ce0f18a9feec" />
 
-```bash
-ng serve
-```
+## Automatically fill in the input field
+<img width="280" height="400" alt="image" src="https://github.com/user-attachments/assets/46db1c2d-a816-41bd-a9ff-80ec2b652d69" />
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Hardware
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/03e5b968-d44f-4833-8d78-e37ebe1af5f5" />
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Schematic
+<img width="500" height="210" alt="Schematic_RaspDeck" src="https://github.com/user-attachments/assets/b3ab938c-45c7-489b-bd36-c26361660ad9" />
