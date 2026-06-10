@@ -1,21 +1,13 @@
 @if (idle$ | async; as idle) {
   @if (idle) {
     <div class="ss-overlay" ((pointerdown))="wake()">
-       <div class="ss-HP">
-          ⚡{{availableHP()}}%
-        </div>
       <div class="ss-clock">
         {{ currentTime() | date:'HH:mm' }}
-      </div>
-      <div class="ss-schedule">
-        {{ scheduleNotice() }}
       </div>
       <div class="ss-date">
         {{ currentTime() | date:'EEEE dd-MM-yyyy ' }}
       </div>
-      <div class="ss-holiday">
-        {{holidayNotice}}
-      </div>
+      
     </div>
   }
 }
